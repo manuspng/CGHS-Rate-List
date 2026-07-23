@@ -11561,11 +11561,33 @@ const statsCategory = document.getElementById('stats-category');
 
 // Initialize PWA
 window.addEventListener('DOMContentLoaded', () => {
-  // Register Service Worker
+  // Register Service Worker and handle auto-updates
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./service-worker.js')
-      .then(reg => console.log('[PWA] Service Worker registered successfully', reg.scope))
+      .then(reg => {
+        console.log('[PWA] Service Worker registered successfully', reg.scope);
+        
+        // Listen for new service worker installation
+        reg.addEventListener('updatefound', () => {
+          const newWorker = reg.installing;
+          newWorker.addEventListener('statechange', () => {
+            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+              // Force activation of the new service worker
+              newWorker.postMessage({ action: 'skipWaiting' });
+            }
+          });
+        });
+      })
       .catch(err => console.error('[PWA] Service Worker registration failed', err));
+
+    // Reload the page once the new service worker takes control
+    let refreshing = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!refreshing) {
+        refreshing = true;
+        window.location.reload();
+      }
+    });
   }
 
   // Set up connection monitoring

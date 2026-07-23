@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cghs-rates-v1';
+const CACHE_NAME = 'cghs-rates-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -36,6 +36,13 @@ self.addEventListener('activate', (event) => {
   );
 });
 
+// Message Event - listen for update triggers
+self.addEventListener('message', (event) => {
+  if (event.data && event.data.action === 'skipWaiting') {
+    self.skipWaiting();
+  }
+});
+
 // Fetch Event - cache first strategy for shell, network first for Google Sheets
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
@@ -45,7 +52,6 @@ self.addEventListener('fetch', (event) => {
     event.respondWith(
       fetch(event.request)
         .then((response) => {
-          // Clone the response and save it to the cache
           const responseClone = response.clone();
           caches.open(CACHE_NAME).then((cache) => {
             cache.put(event.request, responseClone);
@@ -53,7 +59,6 @@ self.addEventListener('fetch', (event) => {
           return response;
         })
         .catch(() => {
-          // If offline, return the cached version of the CSV
           return caches.match(event.request);
         })
     );
@@ -67,9 +72,7 @@ self.addEventListener('fetch', (event) => {
         return cachedResponse;
       }
       
-      // Fallback to network
       return fetch(event.request).then((response) => {
-        // Cache newly fetched resource if it is a successful local asset
         if (response.status === 200 && response.type === 'basic') {
           const responseClone = response.clone();
           caches.open(CACHE_NAME).then((cache) => {
