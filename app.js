@@ -11947,7 +11947,7 @@ function renderRateRows(items, isDefaultState) {
     welcomeHeader.className = 'py-6 px-5 mb-3 rounded-2xl bg-gradient-to-r from-blue-500/10 to-indigo-500/10 border border-blue-500/10 dark:from-blue-500/5 dark:to-indigo-500/5 dark:border-blue-500/5';
     welcomeHeader.innerHTML = `
       <h2 class="text-base sm:text-lg font-bold text-slate-800 dark:text-slate-100 flex items-center gap-2">
-        <span>👋 Welcome to the CGHS Rate Directory</span>
+        <span>Welcome to the CGHS Rate Directory</span>
       </h2>
       <p class="mt-2 text-xs sm:text-sm text-slate-600 dark:text-slate-400 max-w-2xl leading-relaxed">
         Select a category from the <strong>Dropdown Selector</strong> or type in the <strong>Search Bar</strong> above to instantly query 1,840 medical rates offline.
