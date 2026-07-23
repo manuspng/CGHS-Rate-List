@@ -12947,9 +12947,8 @@ window.addEventListener('DOMContentLoaded', () => {
 // Theme Management
 function initTheme() {
   const currentTheme = localStorage.getItem('theme');
-  const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   
-  if (currentTheme === 'dark' || (!currentTheme && systemPrefersDark)) {
+  if (currentTheme === 'dark') {
     document.documentElement.classList.add('dark');
     themeIconLight.classList.remove('hidden');
     themeIconDark.classList.add('hidden');
