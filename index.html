@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>CGHS Rate Directory</title>
+  
+  <!-- SEO Tags -->
+  <meta name="description" content="Offline-first searchable medical procedure rate directory for CGHS Delhi/NCR. View NABH and Non-NABH rates instantly.">
+  <meta name="author" content="Antigravity PWA Builder">
+  
+  <!-- PWA Capabilities -->
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="CGHS Rates">
+  <link rel="apple-touch-icon" href="./icon.png">
+  <link rel="manifest" href="./manifest.json">
+  
+  <!-- Prevent FOUC (Flash of Unstyled Content) for Dark Theme -->
+  <meta name="color-scheme" content="light dark">
+  <script>
+    {
+      const theme = localStorage.getItem('theme');
+      const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (theme === 'dark' || (!theme && systemPrefersDark)) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    }
+  </script>
+  
+  <!-- Tailwind CSS & Google Fonts -->
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              light: '#2563eb',
+              dark: '#3b82f6',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    /* Global scrollbar styling */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #cbd5e1;
+      border-radius: 9999px;
+    }
+    .dark ::-webkit-scrollbar-thumb {
+      background: #334155;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #94a3b8;
+    }
+    .dark ::-webkit-scrollbar-thumb:hover {
+      background: #475569;
+    }
+    
+    /* Custom background patterns for a premium look */
+    .premium-bg {
+      background-color: #f8fafc;
+      background-image: radial-gradient(#e2e8f0 1.2px, transparent 1.2px), radial-gradient(#e2e8f0 1.2px, #f8fafc 1.2px);
+      background-size: 48px 48px;
+      background-position: 0 0, 24px 24px;
+    }
+    .dark .premium-bg {
+      background-color: #0b0f19;
+      background-image: radial-gradient(#1e293b 1.2px, transparent 1.2px), radial-gradient(#1e293b 1.2px, #0b0f19 1.2px);
+      background-size: 48px 48px;
+      background-position: 0 0, 24px 24px;
+    }
+  </style>
+</head>
+<body class="h-full font-sans antialiased text-slate-800 dark:text-slate-200 premium-bg transition-colors duration-300">
+  <div class="flex flex-col min-h-screen">
+    
+    <!-- Sticky Header & Search Area -->
+    <header class="sticky top-0 z-30 w-full border-b border-slate-200/50 bg-white/75 backdrop-blur-md dark:border-slate-800/40 dark:bg-[#0b0f19]/75 transition-all duration-300">
+      <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col gap-4">
+          
+          <!-- Header Title & Controls Row -->
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white shadow-md shadow-blue-500/20">
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                </svg>
+              </div>
+              <div>
+                <h1 class="text-lg font-extrabold tracking-tight sm:text-xl bg-gradient-to-r from-blue-600 via-indigo-500 to-indigo-600 bg-clip-text text-transparent dark:from-blue-400 dark:to-indigo-400">
+                  CGHS Rate Directory
+                </h1>
+              </div>
+            </div>
+
+            <!-- Header Controls -->
+            <div class="flex items-center gap-2">
+              
+              <!-- Connection Status -->
+              <div id="connection-status" class="flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-500 dark:bg-emerald-500/20 border border-emerald-500/20 transition-all duration-300">
+                <span id="status-dot" class="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.6)]"></span>
+                <span id="status-text">Synced</span>
+              </div>
+
+              <!-- Sync Button -->
+              <button id="sync-btn" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 dark:bg-slate-800 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-700 shadow-sm transition-all duration-200 active:scale-95" title="Fetch latest rates from Google Sheets">
+                <svg id="sync-icon" class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 1121.21 7.89M9 11l3 3L22 4" />
+                </svg>
+                <span id="sync-text">Sync</span>
+              </button>
+
+              <!-- Theme Toggle -->
+              <button id="theme-toggle" class="p-2 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700 shadow-sm transition-all duration-200 active:scale-95" aria-label="Toggle Theme">
+                <svg id="theme-icon-light" class="w-4 h-4 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 9H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m12.728 0l-.707-.707M6.343 4.343l-.707-.707M12 7a5 5 0 100 10 5 5 0 000-10z" />
+                </svg>
+                <svg id="theme-icon-dark" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+                </svg>
+              </button>
+
+            </div>
+          </div>
+          
+          <!-- Sticky Global Search & Dropdown Row -->
+          <div class="flex flex-col sm:flex-row gap-3 w-full">
+            <!-- Search Input -->
+            <div class="relative flex-grow">
+              <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none text-slate-400 dark:text-slate-500">
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </span>
+              <input 
+                id="search-input"
+                type="text" 
+                placeholder="Search by procedure name or code..." 
+                class="w-full pl-11 pr-10 py-3 rounded-2xl border border-slate-200/80 bg-slate-50/50 text-sm font-medium placeholder-slate-400 outline-none transition-all duration-300 focus:bg-white focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 dark:border-slate-800/80 dark:bg-slate-900/40 dark:focus:bg-slate-900 focus:shadow-md"
+              >
+              <button 
+                id="clear-search" 
+                class="absolute inset-y-0 right-0 flex items-center pr-3.5 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hidden"
+                title="Clear search"
+              >
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            
+            <!-- Category Dropdown Selector -->
+            <div class="w-full sm:w-72 flex-shrink-0">
+              <select 
+                id="category-select" 
+                class="w-full px-4 py-3 rounded-2xl border border-slate-200 bg-slate-50/50 text-sm font-semibold outline-none transition-all duration-300 focus:bg-white focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 dark:border-slate-800 dark:bg-slate-900/40 dark:focus:bg-slate-900 focus:shadow-md cursor-pointer text-slate-700 dark:text-slate-300"
+              >
+                <option value="ALL">All Categories</option>
+                <!-- Dynamically populated options -->
+              </select>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </header>
+    
+    <!-- Summary Stats Header -->
+    <section class="w-full py-3 border-b border-slate-200/30 bg-slate-50/30 dark:border-slate-800/20 dark:bg-slate-900/5">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <!-- Summary Stats -->
+        <div class="flex items-center justify-between text-xs font-semibold text-slate-500 dark:text-slate-400 px-1">
+          <div class="flex items-center gap-1.5">
+            <span>Showing:</span>
+            <span id="stats-filtered" class="font-bold text-slate-800 dark:text-slate-100">0</span>
+            <span>of</span>
+            <span id="stats-total" class="font-bold text-slate-800 dark:text-slate-100">0</span>
+            <span>records</span>
+          </div>
+          <div class="flex items-center gap-1">
+            <span>Filter:</span>
+            <span id="stats-category" class="font-bold text-blue-600 dark:text-blue-400">All Categories</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Main Content Area -->
+    <main class="flex-grow mx-auto w-full max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+      
+      <!-- Procedures Grid Layout -->
+      <div id="rate-list" class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <!-- Dynamically rendered procedure cards go here -->
+        <div class="bg-white/50 dark:bg-slate-900/30 rounded-2xl p-5 border border-slate-100 dark:border-slate-800/40 animate-pulse h-48"></div>
+        <div class="bg-white/50 dark:bg-slate-900/30 rounded-2xl p-5 border border-slate-100 dark:border-slate-800/40 animate-pulse h-48"></div>
+        <div class="bg-white/50 dark:bg-slate-900/30 rounded-2xl p-5 border border-slate-100 dark:border-slate-800/40 animate-pulse h-48"></div>
+      </div>
+      
+    </main>
+    
+    <!-- Premium Bottom Footer -->
+    <footer class="w-full py-4 border-t border-slate-200/50 bg-white/60 dark:border-slate-800/40 dark:bg-slate-900/20 text-center text-xs text-slate-500 dark:text-slate-400">
+      <div class="mx-auto max-w-7xl px-4">
+        <p>© 2026 CGHS Rate Directory. All rates are for guidance purposes and sourced from CGHS Delhi/NCR OM.</p>
+        <p class="mt-1 text-[10px] text-slate-400 dark:text-slate-600">Offline-first PWA. Works without an internet connection using local caching.</p>
+      </div>
+    </footer>
+    
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="./app.js" defer></script>
+</body>
+</html>
