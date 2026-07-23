@@ -194,9 +194,9 @@ const INITIAL_RATES = [
   {
     "id": "28",
     "category": "SKIN",
-    "name": "Intradermal (ID) Injection Keloid (Intralesional",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Intradermal (ID) Injection Keloid (Intralesional Injection)",
+    "nonNabh": 97,
+    "nabh": 112
   },
   {
     "id": "29",
@@ -236,9 +236,9 @@ const INITIAL_RATES = [
   {
     "id": "34",
     "category": "OPHTHALMOLOGY",
-    "name": "Conjunctival wound repair or exploration following",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Conjunctival wound repair or exploration following blunt trauma",
+    "nonNabh": 3300,
+    "nabh": 3795
   },
   {
     "id": "35",
@@ -299,16 +299,16 @@ const INITIAL_RATES = [
   {
     "id": "43",
     "category": "OPHTHALMOLOGY",
-    "name": "Keratoconus correction with therapeutic contact",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Keratoconus correction with therapeutic contact lenses",
+    "nonNabh": 1200,
+    "nabh": 1380
   },
   {
     "id": "44",
     "category": "OPHTHALMOLOGY",
-    "name": "Ultraviolet (UV) radiation for cross-linking for",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Ultraviolet (UV) radiation for cross-linking for keratoconus",
+    "nonNabh": 1800,
+    "nabh": 2070
   },
   {
     "id": "45",
@@ -369,9 +369,9 @@ const INITIAL_RATES = [
   {
     "id": "53",
     "category": "OPHTHALMOLOGY",
-    "name": "DSAEK Descemet’s stripping automated endothelial",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "DSAEK Descemet’s stripping automated endothelial keratoplasty",
+    "nonNabh": 16675,
+    "nabh": 19176
   },
   {
     "id": "54",
@@ -404,9 +404,9 @@ const INITIAL_RATES = [
   {
     "id": "58",
     "category": "OPHTHALMOLOGY",
-    "name": "Dacryocystorhinostomy-Plain with intubation and/or",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Dacryocystorhinostomy-Plain with intubation and/or with lacrimal implants",
+    "nonNabh": 9750,
+    "nabh": 11213
   },
   {
     "id": "59",
@@ -530,9 +530,9 @@ const INITIAL_RATES = [
   {
     "id": "76",
     "category": "OPHTHALMOLOGY",
-    "name": "Corneal endothelial cell count with specular",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Corneal endothelial cell count with specular microscopy",
+    "nonNabh": 230,
+    "nabh": 265
   },
   {
     "id": "77",
@@ -796,9 +796,9 @@ const INITIAL_RATES = [
   {
     "id": "114",
     "category": "OPHTHALMOLOGY",
-    "name": "Evisceration with orbital implants and artificial",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Evisceration with orbital implants and artificial prosthesis",
+    "nonNabh": 5693,
+    "nabh": 6547
   },
   {
     "id": "115",
@@ -1090,9 +1090,9 @@ const INITIAL_RATES = [
   {
     "id": "156",
     "category": "OPHTHALMOLOGY",
-    "name": "Phaco with foldable IOL (silicone and",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Phaco with foldable IOL (silicone and acrylic)/PMMA IOL",
+    "nonNabh": 10781,
+    "nabh": 12398
   },
   {
     "id": "157",
@@ -1104,9 +1104,9 @@ const INITIAL_RATES = [
   {
     "id": "158",
     "category": "OPHTHALMOLOGY",
-    "name": "Secondary IOL implantation- AC IOL PC IOL or",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Secondary IOL implantation- AC IOL PC IOL or scleral fixated IOL",
+    "nonNabh": 6900,
+    "nabh": 7935
   },
   {
     "id": "159",
@@ -1230,16 +1230,16 @@ const INITIAL_RATES = [
   {
     "id": "176",
     "category": "DENTAL",
-    "name": "Reduction & immobilization of fracture- Maxilla",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Reduction & immobilization of fracture- Maxilla Under LA",
+    "nonNabh": 900,
+    "nabh": 1035
   },
   {
     "id": "177",
     "category": "DENTAL",
-    "name": "Reduction & immobilization of Fracture-Mandible",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Reduction & immobilization of Fracture-Mandible Under LA",
+    "nonNabh": 3500,
+    "nabh": 4025
   },
   {
     "id": "178",
@@ -1258,30 +1258,30 @@ const INITIAL_RATES = [
   {
     "id": "180",
     "category": "DENTAL",
-    "name": "Internal wire fixation/plate fixation of Maxilla under",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Internal wire fixation/plate fixation of Maxilla under LA",
+    "nonNabh": 3000,
+    "nabh": 3450
   },
   {
     "id": "181",
     "category": "DENTAL",
-    "name": "Internal wire fixation/plate fixation of Maxilla under",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Internal wire fixation/plate fixation of Maxilla under GA",
+    "nonNabh": 4000,
+    "nabh": 4600
   },
   {
     "id": "182",
     "category": "DENTAL",
-    "name": "Internal wire fixation/plate fixation of Mandible",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Internal wire fixation/plate fixation of Mandible under LA",
+    "nonNabh": 3500,
+    "nabh": 4025
   },
   {
     "id": "183",
     "category": "DENTAL",
-    "name": "Internal wire fixation/plate fixation of Mandible",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Internal wire fixation/plate fixation of Mandible under GA",
+    "nonNabh": 4250,
+    "nabh": 4888
   },
   {
     "id": "184",
@@ -1307,9 +1307,9 @@ const INITIAL_RATES = [
   {
     "id": "187",
     "category": "DENTAL",
-    "name": "Extraction in mentally retarded/patients with systemic diseases/patient with special needs under short term",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Extraction in mentally retarded/patients with systemic diseases/patient with special needs under short term GA",
+    "nonNabh": 939,
+    "nabh": 1080
   },
   {
     "id": "188",
@@ -1321,16 +1321,16 @@ const INITIAL_RATES = [
   {
     "id": "189",
     "category": "DENTAL",
-    "name": "Cyst & tumour of Maxilla / mandible by enucleation / excision / marsupialisation size more than 4 cms",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Cyst & tumour of Maxilla / mandible by enucleation / excision / marsupialisation size more than 4 cms under LA",
+    "nonNabh": 406,
+    "nabh": 467
   },
   {
     "id": "190",
     "category": "DENTAL",
-    "name": "Cyst & tumour of Maxilla/mandible by enucleation / excision / marsupialisation size more than 4 cms",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Cyst & tumour of Maxilla/mandible by enucleation / excision / marsupialisation size more than 4 cms under GA",
+    "nonNabh": 1000,
+    "nabh": 1150
   },
   {
     "id": "191",
@@ -1440,9 +1440,9 @@ const INITIAL_RATES = [
   {
     "id": "206",
     "category": "DENTAL",
-    "name": "Root canal Treatment(RCT) Posterior teeth (per",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Root canal Treatment(RCT) Posterior teeth (per tooth)",
+    "nonNabh": 700,
+    "nabh": 805
   },
   {
     "id": "207",
@@ -1496,9 +1496,9 @@ const INITIAL_RATES = [
   {
     "id": "214",
     "category": "DENTAL",
-    "name": "Removable partial denture-Metal based-more than 3",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Removable partial denture-Metal based-more than 3 teeth",
+    "nonNabh": 900,
+    "nabh": 1035
   },
   {
     "id": "215",
@@ -1510,9 +1510,9 @@ const INITIAL_RATES = [
   {
     "id": "216",
     "category": "DENTAL",
-    "name": "Removable partial denture-Acrylic based-more than 3",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Removable partial denture-Acrylic based-more than 3 teeth / Per tooth",
+    "nonNabh": 264,
+    "nabh": 304
   },
   {
     "id": "217",
@@ -1594,9 +1594,9 @@ const INITIAL_RATES = [
   {
     "id": "228",
     "category": "DENTAL",
-    "name": "Maxillo-facial prosthesis (sal /auricular/orbital/facial",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Maxillo-facial prosthesis (sal /auricular/orbital/facial lost part)",
+    "nonNabh": 3500,
+    "nabh": 4025
   },
   {
     "id": "229",
@@ -1629,9 +1629,9 @@ const INITIAL_RATES = [
   {
     "id": "233",
     "category": "ENT",
-    "name": "Impedance with stepedial reflex / Impedance",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Impedance with stepedial reflex / Impedance Audiometry",
+    "nonNabh": 230,
+    "nabh": 265
   },
   {
     "id": "234",
@@ -1881,9 +1881,9 @@ const INITIAL_RATES = [
   {
     "id": "269",
     "category": "ENT",
-    "name": "Caldwell Luc Surgery (Radical Antrostomy for",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Caldwell Luc Surgery (Radical Antrostomy for maxillary sinus)",
+    "nonNabh": 10626,
+    "nabh": 12220
   },
   {
     "id": "270",
@@ -1937,16 +1937,16 @@ const INITIAL_RATES = [
   {
     "id": "277",
     "category": "ENT",
-    "name": "Functional Endoscopic Sinus Surgery (FESS) for",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Functional Endoscopic Sinus Surgery (FESS) for Antrochoanal polyp",
+    "nonNabh": 5750,
+    "nabh": 6613
   },
   {
     "id": "278",
     "category": "ENT",
-    "name": "Functional Endoscopic Sinus Surgery (FESS) for",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Functional Endoscopic Sinus Surgery (FESS) for ethmoidal polyp",
+    "nonNabh": 5750,
+    "nabh": 6613
   },
   {
     "id": "279",
@@ -1965,9 +1965,9 @@ const INITIAL_RATES = [
   {
     "id": "281",
     "category": "ENT",
-    "name": "Mastoidectomy plus Ossiculoplasty including TORP (Total Ossicular Replacement Prosthesis) or PORP",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Mastoidectomy plus Ossiculoplasty including TORP (Total Ossicular Replacement Prosthesis) or PORP (Partial Ossicular Replacement Prosthesis)",
+    "nonNabh": 2415,
+    "nabh": 2777
   },
   {
     "id": "282",
@@ -2070,9 +2070,9 @@ const INITIAL_RATES = [
   {
     "id": "296",
     "category": "ENT",
-    "name": "Oesophagoscopy with foreign body removal from",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Oesophagoscopy with foreign body removal from Oesophagus",
+    "nonNabh": 1800,
+    "nabh": 2070
   },
   {
     "id": "297",
@@ -2105,9 +2105,9 @@ const INITIAL_RATES = [
   {
     "id": "301",
     "category": "HEAD & NECK",
-    "name": "Excision of Pinna for Growth (Squamous/Basal/",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Excision of Pinna for Growth (Squamous/Basal/ Injuries) Skin Only",
+    "nonNabh": 4000,
+    "nabh": 4600
   },
   {
     "id": "302",
@@ -2133,9 +2133,9 @@ const INITIAL_RATES = [
   {
     "id": "305",
     "category": "HEAD & NECK",
-    "name": "Total Amputation & Excision of External Auditory",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Total Amputation & Excision of External Auditory Meatus",
+    "nonNabh": 1500,
+    "nabh": 1725
   },
   {
     "id": "306",
@@ -2217,16 +2217,16 @@ const INITIAL_RATES = [
   {
     "id": "317",
     "category": "HEAD & NECK",
-    "name": "Operation for Carcinoma Lip - Wedge Excision and",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operation for Carcinoma Lip - Wedge Excision and Vermilionectomy",
+    "nonNabh": 9292,
+    "nabh": 10686
   },
   {
     "id": "318",
     "category": "HEAD & NECK",
-    "name": "Estlander Operation (Estlander flap in plastic surgery",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Estlander Operation (Estlander flap in plastic surgery of lips)",
+    "nonNabh": 7475,
+    "nabh": 8596
   },
   {
     "id": "319",
@@ -2287,9 +2287,9 @@ const INITIAL_RATES = [
   {
     "id": "327",
     "category": "HEAD & NECK",
-    "name": "Combined Mandibulectomy and Neck Dissection",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Combined Mandibulectomy and Neck Dissection Operation (Commando Operation)",
+    "nonNabh": 22000,
+    "nabh": 25300
   },
   {
     "id": "328",
@@ -2420,9 +2420,9 @@ const INITIAL_RATES = [
   {
     "id": "346",
     "category": "HEAD & NECK",
-    "name": "Direct Laryngoscopy including biopsy under GA",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Direct Laryngoscopy including biopsy under GA (Select CGHS rate Code 295 for approved rate)",
+    "nonNabh": 295,
+    "nabh": 295
   },
   {
     "id": "347",
@@ -2621,144 +2621,11 @@ const INITIAL_RATES = [
     "nabh": 345
   },
   {
-    "id": "375",
-    "category": "BIOPSIES",
-    "name": "Excision of Cervical Lymph Node",
-    "nonNabh": 1725,
-    "nabh": 1984
-  },
-  {
-    "id": "376",
-    "category": "BIOPSIES",
-    "name": "Excision of Axillary Lymph Node",
-    "nonNabh": 2277,
-    "nabh": 2619
-  },
-  {
-    "id": "377",
-    "category": "BIOPSIES",
-    "name": "Excision of Inguinal Lymph Node",
-    "nonNabh": 2277,
-    "nabh": 2619
-  },
-  {
-    "id": "378",
-    "category": "BIOPSIES",
-    "name": "Excision Biopsy of Ulcers",
-    "nonNabh": 1470,
-    "nabh": 1691
-  },
-  {
-    "id": "379",
-    "category": "BIOPSIES",
-    "name": "Excision Biopsy of Superficial Lumps",
-    "nonNabh": 3220,
-    "nabh": 3703
-  },
-  {
-    "id": "380",
-    "category": "BIOPSIES",
-    "name": "Incision Biopsy of Growths/Ulcers",
-    "nonNabh": 1470,
-    "nabh": 1691
-  },
-  {
-    "id": "381",
-    "category": "BIOPSIES",
-    "name": "Trucut Needle Biopsy",
-    "nonNabh": 1550,
-    "nabh": 1783
-  },
-  {
-    "id": "382",
-    "category": "BIOPSIES",
-    "name": "Percutaneous Kidney Biopsy",
-    "nonNabh": 1470,
-    "nabh": 1691
-  },
-  {
-    "id": "383",
-    "category": "BIOPSIES",
-    "name": "Marrow Biopsy (Open)",
-    "nonNabh": 1060,
-    "nabh": 1219
-  },
-  {
-    "id": "384",
-    "category": "BIOPSIES",
-    "name": "Muscle Biopsy ) (Select CGHS rate Code 1724 for approved rate)",
-    "nonNabh": 1724,
-    "nabh": 1724
-  },
-  {
-    "id": "385",
-    "category": "BIOPSIES",
-    "name": "Scalene Node Biopsy",
-    "nonNabh": 1350,
-    "nabh": 1553
-  },
-  {
-    "id": "386",
-    "category": "BIOPSIES",
-    "name": "Excision of Sebaceous Cysts",
-    "nonNabh": 1242,
-    "nabh": 1428
-  },
-  {
-    "id": "387",
-    "category": "BIOPSIES",
-    "name": "Excision of Superficial Lipoma",
-    "nonNabh": 1932,
-    "nabh": 2222
-  },
-  {
-    "id": "388",
-    "category": "BIOPSIES",
-    "name": "Excision of Superficial Neurofibroma",
-    "nonNabh": 2500,
-    "nabh": 2875
-  },
-  {
-    "id": "389",
-    "category": "BIOPSIES",
-    "name": "Excision of Dermoid Cysts",
-    "nonNabh": 2277,
-    "nabh": 2619
-  },
-  {
-    "id": "390",
-    "category": "BIOPSIES",
-    "name": "Haemorrhoidectomy",
-    "nonNabh": 20720,
-    "nabh": 24375
-  },
-  {
-    "id": "391",
-    "category": "BIOPSIES",
-    "name": "Stappler haemorrhoidectomy",
-    "nonNabh": 38000,
-    "nabh": 43700
-  },
-  {
-    "id": "392",
-    "category": "BIOPSIES",
-    "name": "keloid excision",
-    "nonNabh": 1150,
-    "nabh": 1323
-  },
-  {
-    "id": "393",
-    "category": "BIOPSIES",
-    "name": "Varicose vein Surgery-Trendelenburg operation with",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
     "id": "394",
     "category": "OESOPHAGUS",
-    "name": "Atresia of Oesophagus and Tracheo Oesophageal",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Atresia of Oesophagus and Tracheo Oesophageal Fistula",
+    "nonNabh": 28750,
+    "nabh": 33063
   },
   {
     "id": "395",
@@ -2819,9 +2686,9 @@ const INITIAL_RATES = [
   {
     "id": "403",
     "category": "OESOPHAGUS",
-    "name": "Oesophago Gastrectomy – Lower Corringers",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Oesophago Gastrectomy – Lower Corringers procedure",
+    "nonNabh": 21390,
+    "nabh": 24599
   },
   {
     "id": "404",
@@ -3008,9 +2875,9 @@ const INITIAL_RATES = [
   {
     "id": "430",
     "category": "ABDOMEN & GI SURGERY",
-    "name": "Rare Hernias Repair (Spigalion, Obturator, Lumbar,",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Rare Hernias Repair (Spigalion, Obturator, Lumbar, Sciatic)",
+    "nonNabh": 18975,
+    "nabh": 21821
   },
   {
     "id": "431",
@@ -3043,9 +2910,9 @@ const INITIAL_RATES = [
   {
     "id": "435",
     "category": "ABDOMEN & GI SURGERY",
-    "name": "Direct Operation on Oesophagus for Portal",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Direct Operation on Oesophagus for Portal Hypertension",
+    "nonNabh": 22885,
+    "nabh": 26318
   },
   {
     "id": "436",
@@ -3071,9 +2938,9 @@ const INITIAL_RATES = [
   {
     "id": "439",
     "category": "ABDOMEN & GI SURGERY",
-    "name": "By Pass Procedure for Inoperable Carcinoma of",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "By Pass Procedure for Inoperable Carcinoma of Pancreas",
+    "nonNabh": 23000,
+    "nabh": 26450
   },
   {
     "id": "440",
@@ -3330,9 +3197,9 @@ const INITIAL_RATES = [
   {
     "id": "476",
     "category": "ABDOMEN & GI SURGERY",
-    "name": "Fissure in Ano with Internal sphinctrectomy with",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Fissure in Ano with Internal sphinctrectomy with fissurectomy.",
+    "nonNabh": 13800,
+    "nabh": 15870
   },
   {
     "id": "477",
@@ -3477,9 +3344,9 @@ const INITIAL_RATES = [
   {
     "id": "497",
     "category": "ABDOMEN & GI SURGERY",
-    "name": "Laparoscopic Whipple's operation (Laparoscopic",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Laparoscopic Whipple's operation (Laparoscopic Pancreatico Duodenectomy",
+    "nonNabh": 20000,
+    "nabh": 23000
   },
   {
     "id": "498",
@@ -3505,9 +3372,9 @@ const INITIAL_RATES = [
   {
     "id": "501",
     "category": "ABDOMEN & GI SURGERY",
-    "name": "Laparoscopic Anterior Resection (of Intestine/",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Laparoscopic Anterior Resection (of Intestine/ Rectum)",
+    "nonNabh": 23000,
+    "nabh": 26450
   },
   {
     "id": "502",
@@ -3575,62 +3442,62 @@ const INITIAL_RATES = [
   {
     "id": "511",
     "category": "ICU & CCU",
-    "name": "Coronary Care with Cardiac Monitoring /ICU/CCU",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Coronary Care with Cardiac Monitoring /ICU/CCU (For all categories of ward entitlement, inclusive of Room Rent)",
+    "nonNabh": 4590,
+    "nabh": 5400
   },
   {
     "id": "512",
-    "category": "ENT",
+    "category": "ICU & CCU",
     "name": "Compressed air / piped oxygen /per hour",
     "nonNabh": 50,
     "nabh": 58
   },
   {
     "id": "513",
-    "category": "ENT",
+    "category": "ICU & CCU",
     "name": "Ventilator charges (Per day)",
     "nonNabh": 531,
     "nabh": 611
   },
   {
     "id": "514",
-    "category": "ENT",
+    "category": "ICU & CCU",
     "name": "Paediatric care for New born (Per day)",
     "nonNabh": 186,
     "nabh": 214
   },
   {
     "id": "515",
-    "category": "ENT",
+    "category": "ICU & CCU",
     "name": "Incubator charges (Per day)",
     "nonNabh": 345,
     "nabh": 397
   },
   {
     "id": "516",
-    "category": "ENT",
+    "category": "ICU & CCU",
     "name": "Neonatal ICU charges (Per day)",
     "nonNabh": 391,
     "nabh": 450
   },
   {
     "id": "517",
-    "category": "ENT",
+    "category": "ICU & CCU",
     "name": "Resuscitation",
     "nonNabh": 184,
     "nabh": 212
   },
   {
     "id": "518",
-    "category": "ENT",
+    "category": "ICU & CCU",
     "name": "Exchange Transfusion",
     "nonNabh": 265,
     "nabh": 305
   },
   {
     "id": "519",
-    "category": "ENT",
+    "category": "ICU & CCU",
     "name": "Pneupack ventilator in Nursery (Per day)",
     "nonNabh": 575,
     "nabh": 661
@@ -3652,9 +3519,9 @@ const INITIAL_RATES = [
   {
     "id": "522",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Tetralogy of Fallot (TOF)",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Tetralogy of Fallot (TOF) /TAPVC/TCPC/REV/RSOV repair",
+    "nonNabh": 127075,
+    "nabh": 146136
   },
   {
     "id": "523",
@@ -3708,16 +3575,16 @@ const INITIAL_RATES = [
   {
     "id": "530",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Coronary Artery Bypass Graft surgery (CABG) +",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Coronary Artery Bypass Graft surgery (CABG) + Intra-Aortic Balloon Pump (IABP)",
+    "nonNabh": 169000,
+    "nabh": 194350
   },
   {
     "id": "531",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Coronary Artery Bypass Graft surgery (CABG) +",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Coronary Artery Bypass Graft surgery (CABG) + Valve",
+    "nonNabh": 169000,
+    "nabh": 194350
   },
   {
     "id": "532",
@@ -3750,9 +3617,9 @@ const INITIAL_RATES = [
   {
     "id": "536",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Mitral valve (MV) Repair + Aortic valve (AV) Repair /",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Mitral valve (MV) Repair + Aortic valve (AV) Repair / Tricuspid Valve (TV) Repair + Pulmonary valve (PV) repair",
+    "nonNabh": 103615,
+    "nabh": 119157
   },
   {
     "id": "537",
@@ -3785,9 +3652,9 @@ const INITIAL_RATES = [
   {
     "id": "541",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Congenital cytomegalovirus (CMV)/ patent ductus",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Congenital cytomegalovirus (CMV)/ patent ductus arteriosus (PDA)",
+    "nonNabh": 51980,
+    "nabh": 59777
   },
   {
     "id": "542",
@@ -3827,9 +3694,9 @@ const INITIAL_RATES = [
   {
     "id": "547",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Balloon Valvotomy / Percutaneous transvenous",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Balloon Valvotomy / Percutaneous transvenous mitral commissurotomy (PTMC)",
+    "nonNabh": 10264,
+    "nabh": 11804
   },
   {
     "id": "548",
@@ -3918,9 +3785,9 @@ const INITIAL_RATES = [
   {
     "id": "560",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Permanent pacemaker implantation (PPI)- Single",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Permanent pacemaker implantation (PPI)- Single Chamber",
+    "nonNabh": 13800,
+    "nabh": 15870
   },
   {
     "id": "561",
@@ -3932,23 +3799,23 @@ const INITIAL_RATES = [
   {
     "id": "562",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Permanent pacemaker implantation (PPI)-",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Permanent pacemaker implantation (PPI)- Biventricular",
+    "nonNabh": 34500,
+    "nabh": 39675
   },
   {
     "id": "563",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Automatic implantable cardioverter defibrillator",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Automatic implantable cardioverter defibrillator (AICD) Single Chamber",
+    "nonNabh": 28750,
+    "nabh": 33063
   },
   {
     "id": "564",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Automatic implantable cardioverter defibrillator",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Automatic implantable cardioverter defibrillator (AICD) Dual Chamber",
+    "nonNabh": 40000,
+    "nabh": 46000
   },
   {
     "id": "565",
@@ -4030,9 +3897,9 @@ const INITIAL_RATES = [
   {
     "id": "576",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Aortic valve balloon dilatation (AVBD) / pulmonary",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Aortic valve balloon dilatation (AVBD) / pulmonary valve balloon dilatation (PVBD)",
+    "nonNabh": 48300,
+    "nabh": 55545
   },
   {
     "id": "577",
@@ -4198,9 +4065,9 @@ const INITIAL_RATES = [
   {
     "id": "600",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Stress Myocardial Perfusion Imaging (MPI) -",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Stress Myocardial Perfusion Imaging (MPI) - pharmacological",
+    "nonNabh": 2500,
+    "nabh": 2875
   },
   {
     "id": "601",
@@ -4261,23 +4128,23 @@ const INITIAL_RATES = [
   {
     "id": "609",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Other Major Surgery-Cardiovascular and Cardiac",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Other Major Surgery-Cardiovascular and Cardiac Surgery",
+    "nonNabh": 20000,
+    "nabh": 23000
   },
   {
     "id": "610",
     "category": "CARDIOLOGY & CARDIAC SURGERY",
-    "name": "Other Minor Surgery-Cardiovascular and Cardiac",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Other Minor Surgery-Cardiovascular and Cardiac Surgery",
+    "nonNabh": 4250,
+    "nabh": 5000
   },
   {
     "id": "611",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Normal delivery with or without Episiotomy & P.",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Normal delivery with or without Episiotomy & P. repair",
+    "nonNabh": 8000,
+    "nabh": 9200
   },
   {
     "id": "612",
@@ -4317,9 +4184,9 @@ const INITIAL_RATES = [
   {
     "id": "617",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Perforation of Uterus after D/E Laparotomy &",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Perforation of Uterus after D/E Laparotomy & Closure",
+    "nonNabh": 13800,
+    "nabh": 15870
   },
   {
     "id": "618",
@@ -4338,9 +4205,9 @@ const INITIAL_RATES = [
   {
     "id": "620",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Salphingo-Oophorectomy/ Oophorectomy",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Salphingo-Oophorectomy/ Oophorectomy Laparoscopic",
+    "nonNabh": 10000,
+    "nabh": 11500
   },
   {
     "id": "621",
@@ -4366,9 +4233,9 @@ const INITIAL_RATES = [
   {
     "id": "624",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Laparoscopic Broad Ligament Hematoma Drainage",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Laparoscopic Broad Ligament Hematoma Drainage with repair",
+    "nonNabh": 6900,
+    "nabh": 7935
   },
   {
     "id": "625",
@@ -4380,9 +4247,9 @@ const INITIAL_RATES = [
   {
     "id": "626",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Exploration of abdominal Haematoma (after",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Exploration of abdominal Haematoma (after laparotomy + LSCS)",
+    "nonNabh": 8050,
+    "nabh": 9258
   },
   {
     "id": "627",
@@ -4443,9 +4310,9 @@ const INITIAL_RATES = [
   {
     "id": "635",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Suction evacuation Missed abortion/ incomplete",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Suction evacuation Missed abortion/ incomplete abortion",
+    "nonNabh": 5175,
+    "nabh": 5951
   },
   {
     "id": "636",
@@ -4478,9 +4345,9 @@ const INITIAL_RATES = [
   {
     "id": "640",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Abdominal Hysterectomy with or without salpingo-",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Abdominal Hysterectomy with or without salpingo- oophorectomy",
+    "nonNabh": 17250,
+    "nabh": 19838
   },
   {
     "id": "641",
@@ -4548,9 +4415,9 @@ const INITIAL_RATES = [
   {
     "id": "650",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Shirodkar’s sling Operation or other sling operations",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Shirodkar’s sling Operation or other sling operations for prolapse uterus",
+    "nonNabh": 3450,
+    "nabh": 3968
   },
   {
     "id": "651",
@@ -4604,9 +4471,9 @@ const INITIAL_RATES = [
   {
     "id": "658",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Laparoscopy -Diagnostic with chromopertubation and",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Laparoscopy -Diagnostic with chromopertubation and or adhesiolysis and drilling",
+    "nonNabh": 4025,
+    "nabh": 4629
   },
   {
     "id": "659",
@@ -4618,16 +4485,16 @@ const INITIAL_RATES = [
   {
     "id": "660",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Laparoscopically Assisted Vaginal Hysterectomy",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Laparoscopically Assisted Vaginal Hysterectomy (LAVH)",
+    "nonNabh": 25243,
+    "nabh": 29029
   },
   {
     "id": "661",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Balloon Tamponade for Post Partum Haemorrhage",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Balloon Tamponade for Post Partum Haemorrhage (PPH)",
+    "nonNabh": 2800,
+    "nabh": 3220
   },
   {
     "id": "662",
@@ -4639,9 +4506,9 @@ const INITIAL_RATES = [
   {
     "id": "663",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Laparoscopic treatment of Ectopic pregnancy-",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Laparoscopic treatment of Ectopic pregnancy- salpingectomy/salpingostomy conservative",
+    "nonNabh": 9775,
+    "nabh": 11241
   },
   {
     "id": "664",
@@ -4667,16 +4534,16 @@ const INITIAL_RATES = [
   {
     "id": "667",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Laparotomy recannalization of Fallopian tubes-",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Laparotomy recannalization of Fallopian tubes- (Tubuloplasty)",
+    "nonNabh": 22425,
+    "nabh": 25789
   },
   {
     "id": "668",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Laparoscopic recannalization of Fallopian tubes-",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Laparoscopic recannalization of Fallopian tubes- (Tubuloplasty)",
+    "nonNabh": 19500,
+    "nabh": 22425
   },
   {
     "id": "669",
@@ -4723,9 +4590,9 @@ const INITIAL_RATES = [
   {
     "id": "675",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Interventional Ultrasonography- Chorionic villus",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Interventional Ultrasonography- Chorionic villus sampling (CVS)",
+    "nonNabh": 880,
+    "nabh": 1012
   },
   {
     "id": "676",
@@ -4821,9 +4688,9 @@ const INITIAL_RATES = [
   {
     "id": "689",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "USG Transvaginal sonography (TVS for Follicular",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "USG Transvaginal sonography (TVS for Follicular monitoring /aspiration)",
+    "nonNabh": 460,
+    "nabh": 529
   },
   {
     "id": "690",
@@ -4898,9 +4765,9 @@ const INITIAL_RATES = [
   {
     "id": "700",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Hysteroscopy Transcervical Resection of",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Hysteroscopy Transcervical Resection of Endometrium (TCRE)",
+    "nonNabh": 8500,
+    "nabh": 9775
   },
   {
     "id": "701",
@@ -4926,16 +4793,16 @@ const INITIAL_RATES = [
   {
     "id": "704",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Radical Hysterectomy for Cancer cervix with pelvic",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Radical Hysterectomy for Cancer cervix with pelvic lymphadenectomy",
+    "nonNabh": 8500,
+    "nabh": 9775
   },
   {
     "id": "705",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Radical Hysterectomy for Cancer endometrium",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Radical Hysterectomy for Cancer endometrium extending to cervix with pelvic and para aortic lymphadenectomy",
+    "nonNabh": 8500,
+    "nabh": 9775
   },
   {
     "id": "706",
@@ -4968,23 +4835,23 @@ const INITIAL_RATES = [
   {
     "id": "710",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Fetal Doppler/Umblical Doppler/Uterine Vessel",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Fetal Doppler/Umblical Doppler/Uterine Vessel Doppler",
+    "nonNabh": 850,
+    "nabh": 978
   },
   {
     "id": "711",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Medical Termination of Pregnancy (MTP)- 1st",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Medical Termination of Pregnancy (MTP)- 1st Trimester",
+    "nonNabh": 3000,
+    "nabh": 3450
   },
   {
     "id": "712",
     "category": "OBSTETRICS & GYNAECOLOGY",
-    "name": "Medical Termination of Pregnancy (MTP) - 2nd",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Medical Termination of Pregnancy (MTP) - 2nd Trimester",
+    "nonNabh": 4370,
+    "nabh": 5026
   },
   {
     "id": "713",
@@ -5066,23 +4933,23 @@ const INITIAL_RATES = [
   {
     "id": "724",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Hydronephrosis -pyeloplasty",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Hydronephrosis -pyeloplasty Lap/endoscopic",
+    "nonNabh": 19000,
+    "nabh": 21850
   },
   {
     "id": "725",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Hydronephrosis Endopyelotomy",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Hydronephrosis Endopyelotomy antegrade",
+    "nonNabh": 20000,
+    "nabh": 23000
   },
   {
     "id": "726",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Hydronephrosis Endoplyelotomy",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Hydronephrosis Endoplyelotomy retrograde",
+    "nonNabh": 20000,
+    "nabh": 23000
   },
   {
     "id": "727",
@@ -5108,9 +4975,9 @@ const INITIAL_RATES = [
   {
     "id": "730",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Percutaneous Drainage of Perinephric Abscess -",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Percutaneous Drainage of Perinephric Abscess - Ultrasound guided",
+    "nonNabh": 5750,
+    "nabh": 6613
   },
   {
     "id": "731",
@@ -5185,16 +5052,16 @@ const INITIAL_RATES = [
   {
     "id": "741",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Vesicoureteric Reflux (VUR)-",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Vesicoureteric Reflux (VUR)- Lap/Endoscopic",
+    "nonNabh": 18000,
+    "nabh": 20700
   },
   {
     "id": "742",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Vesicoureteric Reflux (VUR)/ Urinary",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Vesicoureteric Reflux (VUR)/ Urinary incontinence with bulking agents",
+    "nonNabh": 20700,
+    "nabh": 23805
   },
   {
     "id": "743",
@@ -5290,23 +5157,23 @@ const INITIAL_RATES = [
   {
     "id": "756",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Exstrophy of the Bladder- Single stage",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Exstrophy of the Bladder- Single stage repair",
+    "nonNabh": 22300,
+    "nabh": 25645
   },
   {
     "id": "757",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Exstrophy of the Bladder- Multistage",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Exstrophy of the Bladder- Multistage repair",
+    "nonNabh": 20815,
+    "nabh": 23937
   },
   {
     "id": "758",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Exstrophy of the Bladder- simple",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Exstrophy of the Bladder- simple cystectomy with urinary diversion",
+    "nonNabh": 22500,
+    "nabh": 25875
   },
   {
     "id": "759",
@@ -5381,9 +5248,9 @@ const INITIAL_RATES = [
   {
     "id": "769",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Urethral Reconstruction - substitution urethroplasty",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Urethral Reconstruction - substitution urethroplasty (Transpubic urethroplasty)",
+    "nonNabh": 19550,
+    "nabh": 22483
   },
   {
     "id": "770",
@@ -5416,9 +5283,9 @@ const INITIAL_RATES = [
   {
     "id": "774",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Incontinence of Urine - Male-Bulking",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Incontinence of Urine - Male-Bulking agent",
+    "nonNabh": 19435,
+    "nabh": 22350
   },
   {
     "id": "775",
@@ -5437,9 +5304,9 @@ const INITIAL_RATES = [
   {
     "id": "777",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Incontinence of Urine - Female-",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Incontinence of Urine - Female- Bulking agent",
+    "nonNabh": 19435,
+    "nabh": 22350
   },
   {
     "id": "778",
@@ -5542,9 +5409,9 @@ const INITIAL_RATES = [
   {
     "id": "792",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Post Radical Orchidectomy retroperitoneal lymph",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Post Radical Orchidectomy retroperitoneal lymph node dissection.",
+    "nonNabh": 14000,
+    "nabh": 16100
   },
   {
     "id": "793",
@@ -5556,16 +5423,16 @@ const INITIAL_RATES = [
   {
     "id": "794",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Adreneclectomy Unilateral/Bilateral for Tumour/For",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Adreneclectomy Unilateral/Bilateral for Tumour/For Carcinoma- Open",
+    "nonNabh": 25300,
+    "nabh": 29095
   },
   {
     "id": "795",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Adreneclectomy Unilateral/Bilateral for Tumour/For",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Adreneclectomy Unilateral/Bilateral for Tumour/For Carcinoma -Lap/Endoscopic",
+    "nonNabh": 14375,
+    "nabh": 16531
   },
   {
     "id": "796",
@@ -5591,9 +5458,9 @@ const INITIAL_RATES = [
   {
     "id": "799",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Micro-surgical Vasovasostomy /Vaso epidedymal",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Micro-surgical Vasovasostomy /Vaso epidedymal ansatamosis .",
+    "nonNabh": 11040,
+    "nabh": 12696
   },
   {
     "id": "800",
@@ -5605,9 +5472,9 @@ const INITIAL_RATES = [
   {
     "id": "801",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Varicocele Palomo’s Unilateral -",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Varicocele Palomo’s Unilateral - Laparoscopic",
+    "nonNabh": 9200,
+    "nabh": 10580
   },
   {
     "id": "802",
@@ -5619,23 +5486,23 @@ const INITIAL_RATES = [
   {
     "id": "803",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Operations for Varicocele Palomo’s Bilateral -",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Operations for Varicocele Palomo’s Bilateral - Laparoscopic",
+    "nonNabh": 14950,
+    "nabh": 17193
   },
   {
     "id": "804",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Block Dissection of ilio-inguinal Nodes - One Side",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Block Dissection of ilio-inguinal Nodes - One Side (For Carcinoma Penis)",
+    "nonNabh": 6325,
+    "nabh": 7274
   },
   {
     "id": "805",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Block Dissection of ilio-inguinal Nodes -Both Sides",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Block Dissection of ilio-inguinal Nodes -Both Sides (For Carcinoma Penis)",
+    "nonNabh": 23000,
+    "nabh": 26450
   },
   {
     "id": "806",
@@ -5654,9 +5521,9 @@ const INITIAL_RATES = [
   {
     "id": "808",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Kidney Transplantation (Spousal/ unrelated)",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Kidney Transplantation (Spousal/ unrelated) Including immunosuppressant therapy",
+    "nonNabh": 300000,
+    "nabh": 345000
   },
   {
     "id": "809",
@@ -5703,51 +5570,51 @@ const INITIAL_RATES = [
   {
     "id": "815",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Kidney Transplant with Native Kidney Nephrectomy",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Kidney Transplant with Native Kidney Nephrectomy (Related)/ Unilateral",
+    "nonNabh": 28000,
+    "nabh": 32200
   },
   {
     "id": "816",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Kidney Transplant with Native Kidney Nephrectomy",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Kidney Transplant with Native Kidney Nephrectomy (Related)/ Bilateral",
+    "nonNabh": 85000,
+    "nabh": 97750
   },
   {
     "id": "817",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Kidney Transplant with Native Kidney Nephrectomy",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Kidney Transplant with Native Kidney Nephrectomy (Spousal/ Unrelated) Unilateral",
+    "nonNabh": 85000,
+    "nabh": 97750
   },
   {
     "id": "818",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Kidney Transplant with Native Kidney Nephrectomy",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Kidney Transplant with Native Kidney Nephrectomy (Spousal/ Unrelated) Bilateral",
+    "nonNabh": 85000,
+    "nabh": 97750
   },
   {
     "id": "819",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Post-Transplant Collection drainage for Lymphocele",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Post-Transplant Collection drainage for Lymphocele (open)",
+    "nonNabh": 6800,
+    "nabh": 8000
   },
   {
     "id": "820",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Post-Transplant Collection drainage for Lymphocele",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Post-Transplant Collection drainage for Lymphocele (percutaneous)",
+    "nonNabh": 6800,
+    "nabh": 8000
   },
   {
     "id": "821",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Post-Transplant Collection drainage for Lymphocele",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Post-Transplant Collection drainage for Lymphocele (Laparoscopic)",
+    "nonNabh": 7650,
+    "nabh": 9000
   },
   {
     "id": "822",
@@ -5780,23 +5647,23 @@ const INITIAL_RATES = [
   {
     "id": "826",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "One sided (single Lumen) Femoral Catheterization",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "One sided (single Lumen) Femoral Catheterization for Haemodialysis",
+    "nonNabh": 1000,
+    "nabh": 1150
   },
   {
     "id": "827",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Bilateral (single Lumen) Femoral Catheterization for",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Bilateral (single Lumen) Femoral Catheterization for Haemodialysis",
+    "nonNabh": 1500,
+    "nabh": 1725
   },
   {
     "id": "828",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Double Lumen Femoral Catheterization for",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Double Lumen Femoral Catheterization for Haemodialysis",
+    "nonNabh": 1850,
+    "nabh": 2128
   },
   {
     "id": "829",
@@ -5836,9 +5703,9 @@ const INITIAL_RATES = [
   {
     "id": "834",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Continuous Ambulatory Peritoneal Dialysis (CAPD)",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Continuous Ambulatory Peritoneal Dialysis (CAPD) catheter insertion- Open method",
+    "nonNabh": 3500,
+    "nabh": 4025
   },
   {
     "id": "835",
@@ -5850,16 +5717,16 @@ const INITIAL_RATES = [
   {
     "id": "836",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Sustained low efficiency haemodialysis /",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Sustained low efficiency haemodialysis / hemodialysis",
+    "nonNabh": 1250,
+    "nabh": 1438
   },
   {
     "id": "837",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Continuous Veno venous/Arteriovenous",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Continuous Veno venous/Arteriovenous Haemofilteration /Hemofilteration",
+    "nonNabh": 2250,
+    "nabh": 2588
   },
   {
     "id": "838",
@@ -5962,9 +5829,9 @@ const INITIAL_RATES = [
   {
     "id": "852",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Radical Nephrectomy plus IV thrombus plus cardiac",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Radical Nephrectomy plus IV thrombus plus cardiac bypass.",
+    "nonNabh": 23000,
+    "nabh": 26450
   },
   {
     "id": "853",
@@ -6032,16 +5899,16 @@ const INITIAL_RATES = [
   {
     "id": "862",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Ureteric Reimplant forMegaureter/ Vesicoureteric",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Ureteric Reimplant forMegaureter/ Vesicoureteric reflux/ureterocele (open)",
+    "nonNabh": 10494,
+    "nabh": 12068
   },
   {
     "id": "863",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Ureteric Reimplant for Megaureter / Vesicoureteric",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Ureteric Reimplant for Megaureter / Vesicoureteric reflux/ ureterocele (Laparoscopic)",
+    "nonNabh": 10494,
+    "nabh": 12068
   },
   {
     "id": "864",
@@ -6053,16 +5920,16 @@ const INITIAL_RATES = [
   {
     "id": "865",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Transurethral Resection of Prostate (TURP) &",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Transurethral Resection of Prostate (TURP) & Transurethral Resection of Bladder Tumour (TURBT)",
+    "nonNabh": 17250,
+    "nabh": 19838
   },
   {
     "id": "866",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Transurethral Resection of Prostate (TURP) with",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Transurethral Resection of Prostate (TURP) with Cystolithotripsy",
+    "nonNabh": 17000,
+    "nabh": 19550
   },
   {
     "id": "867",
@@ -6116,9 +5983,9 @@ const INITIAL_RATES = [
   {
     "id": "874",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Resection Bladder Neck Endoscopic / Bladder neck",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Resection Bladder Neck Endoscopic / Bladder neck incision / transurethral incision on prostrate",
+    "nonNabh": 10925,
+    "nabh": 12564
   },
   {
     "id": "875",
@@ -6235,16 +6102,16 @@ const INITIAL_RATES = [
   {
     "id": "891",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Cystoscopy with Retrograde Catheter -Unilateral",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Cystoscopy with Retrograde Catheter -Unilateral /RGP",
+    "nonNabh": 2803,
+    "nabh": 3223
   },
   {
     "id": "892",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Cystoscopy with Retrograde Catheter - Bilateral",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Cystoscopy with Retrograde Catheter - Bilateral /RGP",
+    "nonNabh": 4675,
+    "nabh": 5500
   },
   {
     "id": "893",
@@ -6256,9 +6123,9 @@ const INITIAL_RATES = [
   {
     "id": "894",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Voiding-cysto-urethrogram and retrograde",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Voiding-cysto-urethrogram and retrograde urethrogram (Nephrostogram)",
+    "nonNabh": 414,
+    "nabh": 476
   },
   {
     "id": "895",
@@ -6277,9 +6144,9 @@ const INITIAL_RATES = [
   {
     "id": "897",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Radical prostatectomy- Robotic / Robotic Partial",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Radical prostatectomy- Robotic / Robotic Partial Nephrectomy",
+    "nonNabh": 20125,
+    "nabh": 23144
   },
   {
     "id": "898",
@@ -6319,9 +6186,9 @@ const INITIAL_RATES = [
   {
     "id": "903",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Retrograde Intrarenal Surgery (RIRS)/ Flexible",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Retrograde Intrarenal Surgery (RIRS)/ Flexible Ureteroscopy",
+    "nonNabh": 6800,
+    "nabh": 7820
   },
   {
     "id": "904",
@@ -6333,9 +6200,9 @@ const INITIAL_RATES = [
   {
     "id": "905",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Cystoscopic Botulinum Toxin Injection ( Over active",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Cystoscopic Botulinum Toxin Injection ( Over active bladder/ Neurogenic bladder) -excluding cost of drug",
+    "nonNabh": 6800,
+    "nabh": 7820
   },
   {
     "id": "906",
@@ -6347,9 +6214,9 @@ const INITIAL_RATES = [
   {
     "id": "907",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "High Intensity Focus Ultrasound (HIFU) (Robotic)",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "High Intensity Focus Ultrasound (HIFU) (Robotic) for Carcinoma prostrate and renal cell carcinoma",
+    "nonNabh": 4600,
+    "nabh": 5290
   },
   {
     "id": "908",
@@ -6361,16 +6228,16 @@ const INITIAL_RATES = [
   {
     "id": "909",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Transrectal Ultrasound (TRUS) guided prostate",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Transrectal Ultrasound (TRUS) guided prostate biopsy",
+    "nonNabh": 575,
+    "nabh": 661
   },
   {
     "id": "910",
     "category": "NEPHROLOGY & UROLOGY",
-    "name": "Ultrasound Guided Percutaneous Nephrostomy",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Ultrasound Guided Percutaneous Nephrostomy (PCN)",
+    "nonNabh": 720,
+    "nabh": 828
   },
   {
     "id": "911",
@@ -6396,9 +6263,9 @@ const INITIAL_RATES = [
   {
     "id": "914",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Craniotomy and Evacuation of Haematoma -",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Craniotomy and Evacuation of Haematoma - Extradural",
+    "nonNabh": 50000,
+    "nabh": 57500
   },
   {
     "id": "915",
@@ -6438,9 +6305,9 @@ const INITIAL_RATES = [
   {
     "id": "920",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Ventriculoatrial /Ventriculoperitoneal Shunt (Select",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Ventriculoatrial /Ventriculoperitoneal Shunt (Select CGHS rate Code 938 for approved rate)",
+    "nonNabh": 938,
+    "nabh": 938
   },
   {
     "id": "921",
@@ -6613,9 +6480,9 @@ const INITIAL_RATES = [
   {
     "id": "945",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Combined Trans-oral Surgery & Craniovertebral",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Combined Trans-oral Surgery & Craniovertebral (CV) Junction Fusion",
+    "nonNabh": 34500,
+    "nabh": 39675
   },
   {
     "id": "946",
@@ -6648,9 +6515,9 @@ const INITIAL_RATES = [
   {
     "id": "950",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Radiofrequency (RF) Lesion for Trigeminal",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Radiofrequency (RF) Lesion for Trigeminal Neuralgia",
+    "nonNabh": 11500,
+    "nabh": 13225
   },
   {
     "id": "951",
@@ -6711,16 +6578,16 @@ const INITIAL_RATES = [
   {
     "id": "959",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Implantation of Deep Brain Stimulation (DBS) -One",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Implantation of Deep Brain Stimulation (DBS) -One electrode",
+    "nonNabh": 34500,
+    "nabh": 39675
   },
   {
     "id": "960",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Implantation of Deep Brain Stimulation (DBS) -two",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Implantation of Deep Brain Stimulation (DBS) -two electrodes",
+    "nonNabh": 40250,
+    "nabh": 46288
   },
   {
     "id": "961",
@@ -6795,9 +6662,9 @@ const INITIAL_RATES = [
   {
     "id": "971",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Radiofrequency (RF) lesion for facet joint pain",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Radiofrequency (RF) lesion for facet joint pain syndrome",
+    "nonNabh": 17250,
+    "nabh": 19838
   },
   {
     "id": "972",
@@ -6830,9 +6697,9 @@ const INITIAL_RATES = [
   {
     "id": "976",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Extracranial-Intracranial Bypass Procedures (EC-IC)",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Extracranial-Intracranial Bypass Procedures (EC-IC) bypass procedures",
+    "nonNabh": 32000,
+    "nabh": 36800
   },
   {
     "id": "977",
@@ -6928,23 +6795,23 @@ const INITIAL_RATES = [
   {
     "id": "990",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Surgery for intracranial Arteriovenous",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Surgery for intracranial Arteriovenous malformations(AVM)",
+    "nonNabh": 40000,
+    "nabh": 46000
   },
   {
     "id": "991",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Foramen magnum decompression for Chiari",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Foramen magnum decompression for Chiari Malformation",
+    "nonNabh": 93750,
+    "nabh": 107813
   },
   {
     "id": "992",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Dorsal column stimulation for backache in failed",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Dorsal column stimulation for backache in failed back syndrome",
+    "nonNabh": 28750,
+    "nabh": 33063
   },
   {
     "id": "993",
@@ -6991,9 +6858,9 @@ const INITIAL_RATES = [
   {
     "id": "999",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Stereotactic Radiosurgery for brain pathology (X",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Stereotactic Radiosurgery for brain pathology (X knife/Gamma ) - ONE session",
+    "nonNabh": 27560,
+    "nabh": 31694
   },
   {
     "id": "1000",
@@ -7089,9 +6956,9 @@ const INITIAL_RATES = [
   {
     "id": "1013",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Lesioning procedures for Parkinson’s disease,",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Lesioning procedures for Parkinson’s disease, Dystonia etc.",
+    "nonNabh": 35000,
+    "nabh": 40250
   },
   {
     "id": "1014",
@@ -7117,9 +6984,9 @@ const INITIAL_RATES = [
   {
     "id": "1017",
     "category": "PEDIATRIC SURGERY",
-    "name": "Diaphragmatic Hernia Repair (Thoracic or",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Diaphragmatic Hernia Repair (Thoracic or Abdominal Approach)",
+    "nonNabh": 17250,
+    "nabh": 19838
   },
   {
     "id": "1018",
@@ -7145,7 +7012,7 @@ const INITIAL_RATES = [
   {
     "id": "1021",
     "category": "PEDIATRIC SURGERY",
-    "name": "Omphalo Mesenteric Duct-    Excision",
+    "name": "Omphalo Mesenteric Duct- Excision",
     "nonNabh": 15525,
     "nabh": 17854
   },
@@ -7264,16 +7131,16 @@ const INITIAL_RATES = [
   {
     "id": "1038",
     "category": "PEDIATRIC SURGERY",
-    "name": "Abdominal Perineal Pull Through (Hirschsprung's",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Abdominal Perineal Pull Through (Hirschsprung's Disease)",
+    "nonNabh": 19000,
+    "nabh": 21850
   },
   {
     "id": "1039",
     "category": "PEDIATRIC SURGERY",
-    "name": "Imperforate Anus Low Anomaly -Cut Back",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Imperforate Anus Low Anomaly -Cut Back Operation",
+    "nonNabh": 10235,
+    "nabh": 11770
   },
   {
     "id": "1040",
@@ -7285,9 +7152,9 @@ const INITIAL_RATES = [
   {
     "id": "1041",
     "category": "PEDIATRIC SURGERY",
-    "name": "Imperforate Anus High Anomaly -Sacroabdomino",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Imperforate Anus High Anomaly -Sacroabdomino Perineal Pull Through",
+    "nonNabh": 12500,
+    "nabh": 14375
   },
   {
     "id": "1042",
@@ -7306,9 +7173,9 @@ const INITIAL_RATES = [
   {
     "id": "1044",
     "category": "PEDIATRIC SURGERY",
-    "name": "Choledochoduodenostomy for Atresia of Extra",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Choledochoduodenostomy for Atresia of Extra Hepatic Billiary Duct",
+    "nonNabh": 15000,
+    "nabh": 17250
   },
   {
     "id": "1045",
@@ -7341,9 +7208,9 @@ const INITIAL_RATES = [
   {
     "id": "1049",
     "category": "PEDIATRIC SURGERY",
-    "name": "Paraortic Lymphadenectomy with Nephrectomy for",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Paraortic Lymphadenectomy with Nephrectomy for Wilms Tumour",
+    "nonNabh": 20000,
+    "nabh": 23000
   },
   {
     "id": "1050",
@@ -7558,23 +7425,23 @@ const INITIAL_RATES = [
   {
     "id": "1080",
     "category": "BURNS & PLASTIC SURGERY",
-    "name": "Reduction of Fractures of Mandible & Maxilla -",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Reduction of Fractures of Mandible & Maxilla - Eyelet Splinting",
+    "nonNabh": 7475,
+    "nabh": 8596
   },
   {
     "id": "1081",
     "category": "BURNS & PLASTIC SURGERY",
-    "name": "Reduction of Fractures of Mandible & Maxilla - Cast",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Reduction of Fractures of Mandible & Maxilla - Cast Metal Splints",
+    "nonNabh": 6900,
+    "nabh": 7935
   },
   {
     "id": "1082",
     "category": "BURNS & PLASTIC SURGERY",
-    "name": "Reduction of Fractures of Mandible & Maxilla -",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Reduction of Fractures of Mandible & Maxilla - Gunning Splints",
+    "nonNabh": 7500,
+    "nabh": 8625
   },
   {
     "id": "1083",
@@ -7635,16 +7502,16 @@ const INITIAL_RATES = [
   {
     "id": "1091",
     "category": "BURNS & PLASTIC SURGERY",
-    "name": "Plastic Surgery of Different Regions of the Ear -",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Plastic Surgery of Different Regions of the Ear - Minor",
+    "nonNabh": 8050,
+    "nabh": 9258
   },
   {
     "id": "1092",
     "category": "BURNS & PLASTIC SURGERY",
-    "name": "Plastic Surgery of Different Regions of the Ear -",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Plastic Surgery of Different Regions of the Ear - Major",
+    "nonNabh": 10350,
+    "nabh": 11903
   },
   {
     "id": "1093",
@@ -7663,9 +7530,9 @@ const INITIAL_RATES = [
   {
     "id": "1095",
     "category": "BURNS & PLASTIC SURGERY",
-    "name": "Plastic Surgery for Facial Paralysis (Support with",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Plastic Surgery for Facial Paralysis (Support with Reanimation)",
+    "nonNabh": 16100,
+    "nabh": 18515
   },
   {
     "id": "1096",
@@ -7745,937 +7612,6 @@ const INITIAL_RATES = [
     "nabh": 222
   },
   {
-    "id": "1107",
-    "category": "ORTHOPEDICS",
-    "name": "Plaster Work",
-    "nonNabh": 255,
-    "nabh": 300
-  },
-  {
-    "id": "1108",
-    "category": "ORTHOPEDICS",
-    "name": "Fingers (post slab)",
-    "nonNabh": 259,
-    "nabh": 298
-  },
-  {
-    "id": "1109",
-    "category": "ORTHOPEDICS",
-    "name": "Fingers full plaster",
-    "nonNabh": 259,
-    "nabh": 298
-  },
-  {
-    "id": "1110",
-    "category": "ORTHOPEDICS",
-    "name": "Colles Fracture - Below elbow",
-    "nonNabh": 978,
-    "nabh": 1125
-  },
-  {
-    "id": "1111",
-    "category": "ORTHOPEDICS",
-    "name": "Colles Fracture - Full plaster",
-    "nonNabh": 994,
-    "nabh": 1143
-  },
-  {
-    "id": "1112",
-    "category": "ORTHOPEDICS",
-    "name": "Colles fracture Ant. Or post. slab",
-    "nonNabh": 400,
-    "nabh": 460
-  },
-  {
-    "id": "1113",
-    "category": "ORTHOPEDICS",
-    "name": "Above elbow full plaster",
-    "nonNabh": 173,
-    "nabh": 199
-  },
-  {
-    "id": "1114",
-    "category": "ORTHOPEDICS",
-    "name": "Above Knee post-slab",
-    "nonNabh": 575,
-    "nabh": 288
-  },
-  {
-    "id": "1115",
-    "category": "ORTHOPEDICS",
-    "name": "Below Knee full plaster",
-    "nonNabh": 173,
-    "nabh": 199
-  },
-  {
-    "id": "1116",
-    "category": "ORTHOPEDICS",
-    "name": "Below Knee post-slab",
-    "nonNabh": 718,
-    "nabh": 826
-  },
-  {
-    "id": "1117",
-    "category": "ORTHOPEDICS",
-    "name": "Tube Plaster (or plaster cylinder)",
-    "nonNabh": 800,
-    "nabh": 920
-  },
-  {
-    "id": "1118",
-    "category": "ORTHOPEDICS",
-    "name": "Above knee full plaster",
-    "nonNabh": 1265,
-    "nabh": 1455
-  },
-  {
-    "id": "1119",
-    "category": "ORTHOPEDICS",
-    "name": "Above knee full slab",
-    "nonNabh": 1158,
-    "nabh": 1332
-  },
-  {
-    "id": "1120",
-    "category": "ORTHOPEDICS",
-    "name": "Minerva Jacket",
-    "nonNabh": 2415,
-    "nabh": 2777
-  },
-  {
-    "id": "1121",
-    "category": "ORTHOPEDICS",
-    "name": "Plaster Jacket",
-    "nonNabh": 2185,
-    "nabh": 2513
-  },
-  {
-    "id": "1122",
-    "category": "ORTHOPEDICS",
-    "name": "Shoulder spica",
-    "nonNabh": 1955,
-    "nabh": 2248
-  },
-  {
-    "id": "1123",
-    "category": "ORTHOPEDICS",
-    "name": "Single Hip spica",
-    "nonNabh": 2243,
-    "nabh": 2579
-  },
-  {
-    "id": "1124",
-    "category": "ORTHOPEDICS",
-    "name": "Double Hip spica",
-    "nonNabh": 2760,
-    "nabh": 3174
-  },
-  {
-    "id": "1125",
-    "category": "ORTHOPEDICS",
-    "name": "Strapping of Finger",
-    "nonNabh": 179,
-    "nabh": 206
-  },
-  {
-    "id": "1126",
-    "category": "ORTHOPEDICS",
-    "name": "Strapping of Toes",
-    "nonNabh": 180,
-    "nabh": 207
-  },
-  {
-    "id": "1127",
-    "category": "ORTHOPEDICS",
-    "name": "Strapping of Wrist",
-    "nonNabh": 230,
-    "nabh": 265
-  },
-  {
-    "id": "1128",
-    "category": "ORTHOPEDICS",
-    "name": "Strapping of Elbow",
-    "nonNabh": 262,
-    "nabh": 301
-  },
-  {
-    "id": "1129",
-    "category": "ORTHOPEDICS",
-    "name": "Strapping of Knee",
-    "nonNabh": 345,
-    "nabh": 397
-  },
-  {
-    "id": "1130",
-    "category": "ORTHOPEDICS",
-    "name": "Strapping of Ankle",
-    "nonNabh": 345,
-    "nabh": 397
-  },
-  {
-    "id": "1131",
-    "category": "ORTHOPEDICS",
-    "name": "Strapping of Chest",
-    "nonNabh": 460,
-    "nabh": 529
-  },
-  {
-    "id": "1132",
-    "category": "ORTHOPEDICS",
-    "name": "Strapping of Shoulder",
-    "nonNabh": 518,
-    "nabh": 596
-  },
-  {
-    "id": "1133",
-    "category": "ORTHOPEDICS",
-    "name": "Figure of 8 bandage",
-    "nonNabh": 518,
-    "nabh": 596
-  },
-  {
-    "id": "1134",
-    "category": "ORTHOPEDICS",
-    "name": "Collar and cuff sling",
-    "nonNabh": 255,
-    "nabh": 300
-  },
-  {
-    "id": "1135",
-    "category": "ORTHOPEDICS",
-    "name": "Ball bandage",
-    "nonNabh": 400,
-    "nabh": 460
-  },
-  {
-    "id": "1136",
-    "category": "ORTHOPEDICS",
-    "name": "Application of POP Casts for Upper & Lower Limbs",
-    "nonNabh": 633,
-    "nabh": 728
-  },
-  {
-    "id": "1137",
-    "category": "ORTHOPEDICS",
-    "name": "Application of Functional Cast Brace",
-    "nonNabh": 1350,
-    "nabh": 1553
-  },
-  {
-    "id": "1138",
-    "category": "ORTHOPEDICS",
-    "name": "Application of Skin Traction",
-    "nonNabh": 690,
-    "nabh": 794
-  },
-  {
-    "id": "1139",
-    "category": "ORTHOPEDICS",
-    "name": "Application of Skeletal Tractions",
-    "nonNabh": 949,
-    "nabh": 1091
-  },
-  {
-    "id": "1140",
-    "category": "ORTHOPEDICS",
-    "name": "Bandage & Strappings for Fractures",
-    "nonNabh": 552,
-    "nabh": 635
-  },
-  {
-    "id": "1141",
-    "category": "ORTHOPEDICS",
-    "name": "Aspiration & Intra Articular Injections",
-    "nonNabh": 575,
-    "nabh": 661
-  },
-  {
-    "id": "1142",
-    "category": "ORTHOPEDICS",
-    "name": "Application of POP Spices & Jackets",
-    "nonNabh": 2473,
-    "nabh": 2844
-  },
-  {
-    "id": "1143",
-    "category": "ORTHOPEDICS",
-    "name": "Close Reduction of Fractures of Limb & POP",
-    "nonNabh": 2600,
-    "nabh": 2990
-  },
-  {
-    "id": "1144",
-    "category": "ORTHOPEDICS",
-    "name": "Reduction of Compound Fractures",
-    "nonNabh": 2760,
-    "nabh": 3174
-  },
-  {
-    "id": "1145",
-    "category": "ORTHOPEDICS",
-    "name": "Open Reduction & Internal Fixation (ORIF) of",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1146",
-    "category": "ORTHOPEDICS",
-    "name": "Open Reduction of fracture of Long Bones of Upper / Lower Limb -Nailing & External Fixation",
-    "nonNabh": 8050,
-    "nabh": 9258
-  },
-  {
-    "id": "1147",
-    "category": "ORTHOPEDICS",
-    "name": "Open Reduction of fracture of Long Bones of Upper /",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1148",
-    "category": "ORTHOPEDICS",
-    "name": "Tension Band Wirings",
-    "nonNabh": 5658,
-    "nabh": 6507
-  },
-  {
-    "id": "1149",
-    "category": "ORTHOPEDICS",
-    "name": "Bone Grafting",
-    "nonNabh": 6601,
-    "nabh": 7591
-  },
-  {
-    "id": "1150",
-    "category": "ORTHOPEDICS",
-    "name": "Excision of Bone Tumours",
-    "nonNabh": 6900,
-    "nabh": 7935
-  },
-  {
-    "id": "1151",
-    "category": "ORTHOPEDICS",
-    "name": "Excision or other Operations for Scaphoid Fractures",
-    "nonNabh": 7188,
-    "nabh": 8266
-  },
-  {
-    "id": "1152",
-    "category": "ORTHOPEDICS",
-    "name": "Sequestrectomy & Saucerisation",
-    "nonNabh": 6900,
-    "nabh": 7935
-  },
-  {
-    "id": "1153",
-    "category": "ORTHOPEDICS",
-    "name": "Sequestrectomy & Saucerizations -Arthrotomy",
-    "nonNabh": 9971,
-    "nabh": 11467
-  },
-  {
-    "id": "1154",
-    "category": "ORTHOPEDICS",
-    "name": "Multiple Pinning Fracture Neck Femur",
-    "nonNabh": 11500,
-    "nabh": 13225
-  },
-  {
-    "id": "1155",
-    "category": "ORTHOPEDICS",
-    "name": "Plate Fixations for Fracture Neck Femur",
-    "nonNabh": 13500,
-    "nabh": 15525
-  },
-  {
-    "id": "1156",
-    "category": "ORTHOPEDICS",
-    "name": "AO Compression Procedures for Fracture Neck",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1157",
-    "category": "ORTHOPEDICS",
-    "name": "Open Reduction of Fracture Neck Femur Muscle",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1158",
-    "category": "ORTHOPEDICS",
-    "name": "Close Reduction of Dislocations",
-    "nonNabh": 3174,
-    "nabh": 3650
-  },
-  {
-    "id": "1159",
-    "category": "ORTHOPEDICS",
-    "name": "Open Reduction of Dislocations",
-    "nonNabh": 3439,
-    "nabh": 3955
-  },
-  {
-    "id": "1160",
-    "category": "ORTHOPEDICS",
-    "name": "Open Reduction & Internal Fixation (ORIF) of",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1161",
-    "category": "ORTHOPEDICS",
-    "name": "Neurolysis/Nerve repair",
-    "nonNabh": 13800,
-    "nabh": 15870
-  },
-  {
-    "id": "1162",
-    "category": "ORTHOPEDICS",
-    "name": "Nerve Repair with Grafting",
-    "nonNabh": 16675,
-    "nabh": 19176
-  },
-  {
-    "id": "1163",
-    "category": "ORTHOPEDICS",
-    "name": "Tendon with Transplant or Graft",
-    "nonNabh": 10350,
-    "nabh": 11903
-  },
-  {
-    "id": "1164",
-    "category": "ORTHOPEDICS",
-    "name": "Tendon Lengthening/Tendon repair",
-    "nonNabh": 8050,
-    "nabh": 9258
-  },
-  {
-    "id": "1165",
-    "category": "ORTHOPEDICS",
-    "name": "Tendon Transfer",
-    "nonNabh": 3105,
-    "nabh": 3571
-  },
-  {
-    "id": "1166",
-    "category": "ORTHOPEDICS",
-    "name": "Laminectomy Excision Disc and Tumours",
-    "nonNabh": 4830,
-    "nabh": 5555
-  },
-  {
-    "id": "1167",
-    "category": "ORTHOPEDICS",
-    "name": "Split Osteotomy and Internal Fixations",
-    "nonNabh": 24150,
-    "nabh": 27773
-  },
-  {
-    "id": "1168",
-    "category": "ORTHOPEDICS",
-    "name": "Anterolateral decompression for tuberculosis/ Costo-",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1169",
-    "category": "ORTHOPEDICS",
-    "name": "Anterolateral Decompression and Spine Fusion",
-    "nonNabh": 19350,
-    "nabh": 22253
-  },
-  {
-    "id": "1170",
-    "category": "ORTHOPEDICS",
-    "name": "Corrective Osteotomy & Internal Fixation- short",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1171",
-    "category": "ORTHOPEDICS",
-    "name": "Corrective Osteotomy & Internal Fixation- long",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1172",
-    "category": "ORTHOPEDICS",
-    "name": "Arthrodesis of - Minor Joints",
-    "nonNabh": 10350,
-    "nabh": 11903
-  },
-  {
-    "id": "1173",
-    "category": "ORTHOPEDICS",
-    "name": "Arthrodesis of - Major Joints",
-    "nonNabh": 10000,
-    "nabh": 11500
-  },
-  {
-    "id": "1174",
-    "category": "ORTHOPEDICS",
-    "name": "Soft Tissue Operations for Congenital Talipes",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1175",
-    "category": "ORTHOPEDICS",
-    "name": "Soft Tissue Operations for Polio",
-    "nonNabh": 6900,
-    "nabh": 7935
-  },
-  {
-    "id": "1176",
-    "category": "ORTHOPEDICS",
-    "name": "Hemiarthroplasty- Hip",
-    "nonNabh": 20000,
-    "nabh": 23000
-  },
-  {
-    "id": "1177",
-    "category": "ORTHOPEDICS",
-    "name": "Hemiarthroplasty- Shoulder",
-    "nonNabh": 20000,
-    "nabh": 23000
-  },
-  {
-    "id": "1178",
-    "category": "ORTHOPEDICS",
-    "name": "Operations for Brachial Plexus & Cervical Rib",
-    "nonNabh": 24150,
-    "nabh": 27773
-  },
-  {
-    "id": "1179",
-    "category": "ORTHOPEDICS",
-    "name": "Amputations - Below Knee",
-    "nonNabh": 6900,
-    "nabh": 7935
-  },
-  {
-    "id": "1180",
-    "category": "ORTHOPEDICS",
-    "name": "Amputations - Below Elbow",
-    "nonNabh": 6843,
-    "nabh": 7869
-  },
-  {
-    "id": "1181",
-    "category": "ORTHOPEDICS",
-    "name": "Amputations - Above Knee",
-    "nonNabh": 8050,
-    "nabh": 9258
-  },
-  {
-    "id": "1182",
-    "category": "ORTHOPEDICS",
-    "name": "Amputations - Above Elbow",
-    "nonNabh": 6843,
-    "nabh": 7869
-  },
-  {
-    "id": "1183",
-    "category": "ORTHOPEDICS",
-    "name": "Amputations - Forequarter",
-    "nonNabh": 13225,
-    "nabh": 15209
-  },
-  {
-    "id": "1184",
-    "category": "ORTHOPEDICS",
-    "name": "Amputations -Hind Quarter and Hemipelvectomy",
-    "nonNabh": 18400,
-    "nabh": 21160
-  },
-  {
-    "id": "1185",
-    "category": "ORTHOPEDICS",
-    "name": "Disarticulations - Major joint",
-    "nonNabh": 20700,
-    "nabh": 23805
-  },
-  {
-    "id": "1186",
-    "category": "ORTHOPEDICS",
-    "name": "Disarticulations - Minor joint",
-    "nonNabh": 12650,
-    "nabh": 14548
-  },
-  {
-    "id": "1187",
-    "category": "ORTHOPEDICS",
-    "name": "Arthrography",
-    "nonNabh": 9200,
-    "nabh": 10580
-  },
-  {
-    "id": "1188",
-    "category": "ORTHOPEDICS",
-    "name": "Arthroscopy - Diagnostic",
-    "nonNabh": 8568,
-    "nabh": 9853
-  },
-  {
-    "id": "1189",
-    "category": "ORTHOPEDICS",
-    "name": "Arthroscopy-therapeutic: without implant",
-    "nonNabh": 10000,
-    "nabh": 11500
-  },
-  {
-    "id": "1190",
-    "category": "ORTHOPEDICS",
-    "name": "Arthroscopy-therapeutic: with implant",
-    "nonNabh": 17250,
-    "nabh": 19838
-  },
-  {
-    "id": "1191",
-    "category": "ORTHOPEDICS",
-    "name": "Soft Tissue Operation on Joints -Small",
-    "nonNabh": 6900,
-    "nabh": 7935
-  },
-  {
-    "id": "1192",
-    "category": "ORTHOPEDICS",
-    "name": "Soft Tissue Operation on Joints -Large",
-    "nonNabh": 13500,
-    "nabh": 15525
-  },
-  {
-    "id": "1193",
-    "category": "ORTHOPEDICS",
-    "name": "Myocutaneous and Fasciocutaneous Flap Procedures",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1194",
-    "category": "ORTHOPEDICS",
-    "name": "Removal of Wires & Screw",
-    "nonNabh": 1760,
-    "nabh": 2024
-  },
-  {
-    "id": "1195",
-    "category": "ORTHOPEDICS",
-    "name": "Removal of Plates",
-    "nonNabh": 4140,
-    "nabh": 4761
-  },
-  {
-    "id": "1196",
-    "category": "ORTHOPEDICS",
-    "name": "Total Hip Replacement (THR)",
-    "nonNabh": 79000,
-    "nabh": 90850
-  },
-  {
-    "id": "1197",
-    "category": "ORTHOPEDICS",
-    "name": "Total Ankle Joint Replacement (TAR)",
-    "nonNabh": 95400,
-    "nabh": 109710
-  },
-  {
-    "id": "1198",
-    "category": "ORTHOPEDICS",
-    "name": "Total Knee Joint Replacement (TKR)",
-    "nonNabh": 110000,
-    "nabh": 126500
-  },
-  {
-    "id": "1199",
-    "category": "ORTHOPEDICS",
-    "name": "Total Shoulder Joint Replacement",
-    "nonNabh": 79000,
-    "nabh": 90850
-  },
-  {
-    "id": "1200",
-    "category": "ORTHOPEDICS",
-    "name": "Total Elbow Joint Replacement",
-    "nonNabh": 79000,
-    "nabh": 90850
-  },
-  {
-    "id": "1201",
-    "category": "ORTHOPEDICS",
-    "name": "Total Wrist Joint Replacement",
-    "nonNabh": 100000,
-    "nabh": 115000
-  },
-  {
-    "id": "1202",
-    "category": "ORTHOPEDICS",
-    "name": "Total finger joint replacement",
-    "nonNabh": 20000,
-    "nabh": 23000
-  },
-  {
-    "id": "1203",
-    "category": "ORTHOPEDICS",
-    "name": "Tubular external fixator",
-    "nonNabh": 4600,
-    "nabh": 5290
-  },
-  {
-    "id": "1204",
-    "category": "ORTHOPEDICS",
-    "name": "Ilizarov's external fixator",
-    "nonNabh": 7763,
-    "nabh": 8927
-  },
-  {
-    "id": "1205",
-    "category": "ORTHOPEDICS",
-    "name": "Pelvi-acetabular fracture -Internal fixation",
-    "nonNabh": 8625,
-    "nabh": 9919
-  },
-  {
-    "id": "1206",
-    "category": "ORTHOPEDICS",
-    "name": "Meniscectomy",
-    "nonNabh": 12000,
-    "nabh": 13800
-  },
-  {
-    "id": "1207",
-    "category": "ORTHOPEDICS",
-    "name": "Meniscus Repair",
-    "nonNabh": 10000,
-    "nabh": 11500
-  },
-  {
-    "id": "1208",
-    "category": "ORTHOPEDICS",
-    "name": "Anterior Cruciate Ligament (ACL) Reconstruction",
-    "nonNabh": 8500,
-    "nabh": 9775
-  },
-  {
-    "id": "1209",
-    "category": "ORTHOPEDICS",
-    "name": "Posterior Cruciate Ligament (PCL) Reconstruction",
-    "nonNabh": 13500,
-    "nabh": 15525
-  },
-  {
-    "id": "1210",
-    "category": "ORTHOPEDICS",
-    "name": "Knee Collateral Ligament Reconstruction",
-    "nonNabh": 12500,
-    "nabh": 14375
-  },
-  {
-    "id": "1211",
-    "category": "ORTHOPEDICS",
-    "name": "Bankart Repair Shoulder",
-    "nonNabh": 13200,
-    "nabh": 15180
-  },
-  {
-    "id": "1212",
-    "category": "ORTHOPEDICS",
-    "name": "Rotator cuff repair / RC repair",
-    "nonNabh": 1500,
-    "nabh": 1725
-  },
-  {
-    "id": "1213",
-    "category": "ORTHOPEDICS",
-    "name": "Biceps tenodesis",
-    "nonNabh": 14000,
-    "nabh": 16100
-  },
-  {
-    "id": "1214",
-    "category": "ORTHOPEDICS",
-    "name": "Distal biceps tendon repair",
-    "nonNabh": 10380,
-    "nabh": 11937
-  },
-  {
-    "id": "1215",
-    "category": "ORTHOPEDICS",
-    "name": "Arthrolysis of knee",
-    "nonNabh": 12500,
-    "nabh": 14375
-  },
-  {
-    "id": "1216",
-    "category": "ORTHOPEDICS",
-    "name": "Capsulotomy of Shoulder",
-    "nonNabh": 15800,
-    "nabh": 18170
-  },
-  {
-    "id": "1217",
-    "category": "ORTHOPEDICS",
-    "name": "Conservative Plaster of Paris (POP)",
-    "nonNabh": 1200,
-    "nabh": 1380
-  },
-  {
-    "id": "1218",
-    "category": "ORTHOPEDICS",
-    "name": "Application for CTEV per sitting",
-    "nonNabh": 1200,
-    "nabh": 1380
-  },
-  {
-    "id": "1219",
-    "category": "ORTHOPEDICS",
-    "name": "Total Hip Replacement (THR) Revision Stage-I",
-    "nonNabh": 17000,
-    "nabh": 19550
-  },
-  {
-    "id": "1220",
-    "category": "ORTHOPEDICS",
-    "name": "Total Hip Replacement (THR) Revision Stage-II",
-    "nonNabh": 50000,
-    "nabh": 57500
-  },
-  {
-    "id": "1221",
-    "category": "ORTHOPEDICS",
-    "name": "Total Knee Replacement (TKR) Revision Stage-I",
-    "nonNabh": 35000,
-    "nabh": 40250
-  },
-  {
-    "id": "1222",
-    "category": "ORTHOPEDICS",
-    "name": "Total Knee Replacement (TKR) Revision Stage-II",
-    "nonNabh": 35000,
-    "nabh": 40250
-  },
-  {
-    "id": "1223",
-    "category": "ORTHOPEDICS",
-    "name": "Illizarov/ external fixation for limb lengthening/",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1224",
-    "category": "ORTHOPEDICS",
-    "name": "Discectomy/ Micro Discectomy",
-    "nonNabh": 12500,
-    "nabh": 14375
-  },
-  {
-    "id": "1225",
-    "category": "ORTHOPEDICS",
-    "name": "Laminectomy",
-    "nonNabh": 4646,
-    "nabh": 5343
-  },
-  {
-    "id": "1226",
-    "category": "ORTHOPEDICS",
-    "name": "Spinal Fixation Cervical/dorsolumbar/ lumbosacral",
-    "nonNabh": 16000,
-    "nabh": 18400
-  },
-  {
-    "id": "1227",
-    "category": "ORTHOPEDICS",
-    "name": "Fusion Surgery Cervical/ Lumbar Spine upto 2 Level",
-    "nonNabh": 22000,
-    "nabh": 25300
-  },
-  {
-    "id": "1228",
-    "category": "ORTHOPEDICS",
-    "name": "Spinal Fusion Surgery Cervical/ Lumbar Spine -More",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1229",
-    "category": "ORTHOPEDICS",
-    "name": "Scoliosis Surgery/ Deformity Correction of Spine",
-    "nonNabh": 25000,
-    "nabh": 28750
-  },
-  {
-    "id": "1230",
-    "category": "ORTHOPEDICS",
-    "name": "Vertebroplasty",
-    "nonNabh": 12000,
-    "nabh": 13800
-  },
-  {
-    "id": "1231",
-    "category": "ORTHOPEDICS",
-    "name": "Spinal Injections",
-    "nonNabh": 450,
-    "nabh": 518
-  },
-  {
-    "id": "1232",
-    "category": "ORTHOPEDICS",
-    "name": "Dynamic Hip Screw (DHS) for Fracture Neck Femur",
-    "nonNabh": 15000,
-    "nabh": 17250
-  },
-  {
-    "id": "1233",
-    "category": "ORTHOPEDICS",
-    "name": "Proximal Femur Nail (PFN) for IT fracture",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1234",
-    "category": "ORTHOPEDICS",
-    "name": "Spinal Osteotomy",
-    "nonNabh": 1434,
-    "nabh": 1649
-  },
-  {
-    "id": "1235",
-    "category": "ORTHOPEDICS",
-    "name": "Illizarov’s / External Fixation for Trauma",
-    "nonNabh": 13000,
-    "nabh": 14950
-  },
-  {
-    "id": "1236",
-    "category": "ORTHOPEDICS",
-    "name": "Soft Tissue Operations for Polio/ Cerebral Palsy",
-    "nonNabh": 10557,
-    "nabh": 12420
-  },
-  {
-    "id": "1237",
-    "category": "ORTHOPEDICS",
-    "name": "Mini Fixator for Hand/Foot",
-    "nonNabh": 9000,
-    "nabh": 10350
-  },
-  {
-    "id": "1238",
-    "category": "ORTHOPEDICS",
-    "name": "Other Major Surgery-Orthopedics",
-    "nonNabh": 38250,
-    "nabh": 45000
-  },
-  {
-    "id": "1239",
-    "category": "ORTHOPEDICS",
-    "name": "Other Minor Surgery-Orthopedics",
-    "nonNabh": 11883,
-    "nabh": 13980
-  },
-  {
     "id": "1240",
     "category": "PHYSIOTHERAPY",
     "name": "Ultrasonic therapy",
@@ -8692,9 +7628,9 @@ const INITIAL_RATES = [
   {
     "id": "1242",
     "category": "PHYSIOTHERAPY",
-    "name": "Electrical stimulation (therapeutic)/ Interferential",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Electrical stimulation (therapeutic)/ Interferential therapy (IFT) /Transcutaneous Electrical Nerve Stimulation (TENS)",
+    "nonNabh": 78,
+    "nabh": 90
   },
   {
     "id": "1243",
@@ -8937,16 +7873,16 @@ const INITIAL_RATES = [
   {
     "id": "1280",
     "category": "ONCOLOGY & CHEMOTHERAPY",
-    "name": "PICC line (peripherally inserted Central",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "PICC line (peripherally inserted Central Cannulisation)",
+    "nonNabh": 920,
+    "nabh": 1058
   },
   {
     "id": "1281",
     "category": "ENT",
-    "name": "Upper GI Endoscopy (Gastro endoscopy / Esophagogastroduodenoscopy (EGD)",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Upper GI Endoscopy (Gastro endoscopy / Esophagogastroduodenoscopy (EGD) + Lower GI Endoscopy (Colonoscopy/ Sigmoidoscopy)",
+    "nonNabh": 1725,
+    "nabh": 1984
   },
   {
     "id": "1282",
@@ -9189,7 +8125,7 @@ const INITIAL_RATES = [
   {
     "id": "1316",
     "category": "ENT",
-    "name": "Ultrasound guided FNAC (Select CGHS rate Code 1603  for approved rate)",
+    "name": "Ultrasound guided FNAC (Select CGHS rate Code 1603 for approved rate)",
     "nonNabh": 1603,
     "nabh": 1603
   },
@@ -9231,9 +8167,9 @@ const INITIAL_RATES = [
   {
     "id": "1322",
     "category": "ENT",
-    "name": "Inferior vena cava (IVC) Venography and Hepatic",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Inferior vena cava (IVC) Venography and Hepatic vein (HV) Venography",
+    "nonNabh": 34212,
+    "nabh": 39344
   },
   {
     "id": "1323",
@@ -9245,9 +8181,9 @@ const INITIAL_RATES = [
   {
     "id": "1324",
     "category": "ENT",
-    "name": "Balloon-occluded Retrograde Intravenous",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Balloon-occluded Retrograde Intravenous Obliteration (BRTO)",
+    "nonNabh": 57500,
+    "nabh": 66125
   },
   {
     "id": "1325",
@@ -9322,9 +8258,9 @@ const INITIAL_RATES = [
   {
     "id": "1335",
     "category": "ENT",
-    "name": "Faecal / Fecal fat test/ fecal chymotrypsin/ fecal",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Faecal / Fecal fat test/ fecal chymotrypsin/ fecal elastase",
+    "nonNabh": 350,
+    "nabh": 403
   },
   {
     "id": "1336",
@@ -9399,9 +8335,9 @@ const INITIAL_RATES = [
   {
     "id": "1346",
     "category": "NEUROLOGY & NEUROSURGERY",
-    "name": "Brain Perfusion SPECT Scan with Technetium 99m",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Brain Perfusion SPECT Scan with Technetium 99m radiopharmaceuticals.",
+    "nonNabh": 9775,
+    "nabh": 11241
   },
   {
     "id": "1347",
@@ -9411,53 +8347,11 @@ const INITIAL_RATES = [
     "nabh": 4400
   },
   {
-    "id": "1348",
-    "category": "GASTROENTEROLOGY",
-    "name": "Gastro esophageal Reflux Study (GER Study)",
-    "nonNabh": 1955,
-    "nabh": 2248
-  },
-  {
-    "id": "1349",
-    "category": "GASTROENTEROLOGY",
-    "name": "Gastro intestinal Bleed (GloB.) Study with",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1350",
-    "category": "GASTROENTEROLOGY",
-    "name": "Hepatobiliary Scintigraphy.",
-    "nonNabh": 2444,
-    "nabh": 2811
-  },
-  {
-    "id": "1351",
-    "category": "GASTROENTEROLOGY",
-    "name": "Meckel's Scan",
-    "nonNabh": 1955,
-    "nabh": 2248
-  },
-  {
-    "id": "1352",
-    "category": "GASTROENTEROLOGY",
-    "name": "Hepatosplenic scintigraphy with Technetium-99m",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1353",
-    "category": "GASTROENTEROLOGY",
-    "name": "Gastric emptying",
-    "nonNabh": 1275,
-    "nabh": 1466
-  },
-  {
     "id": "1354",
     "category": "GENITOURINARY",
-    "name": "Renal Cortical Scintigraphy with Technetium 99m",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Renal Cortical Scintigraphy with Technetium 99m Dimercaptosuccinic acid (DMSA)",
+    "nonNabh": 3421,
+    "nabh": 3934
   },
   {
     "id": "1355",
@@ -9560,16 +8454,16 @@ const INITIAL_RATES = [
   {
     "id": "1369",
     "category": "RADIO-ISOTOPE THERAPY",
-    "name": "Phosphorus-32 therapy for metastatic bone pain",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Phosphorus-32 therapy for metastatic bone pain palliation",
+    "nonNabh": 5000,
+    "nabh": 5750
   },
   {
     "id": "1370",
     "category": "RADIO-ISOTOPE THERAPY",
-    "name": "Samarium-153 therapy for metastatic bone pain",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Samarium-153 therapy for metastatic bone pain palliation",
+    "nonNabh": 10450,
+    "nabh": 12018
   },
   {
     "id": "1371",
@@ -9609,9 +8503,9 @@ const INITIAL_RATES = [
   {
     "id": "1376",
     "category": "CARDIOLOGY",
-    "name": "Transoesophageal Echocardiography (TEE) (Select",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Transoesophageal Echocardiography (TEE) (Select CGHS rate Code 595/596 for approved rate as the case may be)",
+    "nonNabh": 489,
+    "nabh": 562
   },
   {
     "id": "1377",
@@ -9637,9 +8531,9 @@ const INITIAL_RATES = [
   {
     "id": "1380",
     "category": "TUMOUR IMAGING",
-    "name": "FDG Whole body PET / CT Scan (with or without",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "FDG Whole body PET / CT Scan (with or without contrast)",
+    "nonNabh": 20528,
+    "nabh": 23607
   },
   {
     "id": "1381",
@@ -9651,16 +8545,16 @@ const INITIAL_RATES = [
   {
     "id": "1382",
     "category": "PET SCAN",
-    "name": "Gallium-68 Peptide PET / CT imaging for",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Gallium-68 Peptide PET / CT imaging for Neuroendocrine Tumor",
+    "nonNabh": 15000,
+    "nabh": 17250
   },
   {
     "id": "1383",
     "category": "PATHOLOGY",
-    "name": "Urine routine- pH, Specific gravity, sugar, protein",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Urine routine- pH, Specific gravity, sugar, protein and microscopy",
+    "nonNabh": 35,
+    "nabh": 40
   },
   {
     "id": "1384",
@@ -9735,167 +8629,167 @@ const INITIAL_RATES = [
   {
     "id": "1394",
     "category": "HEMATOLOGY",
-    "name": "Complete Haemogram/CBC, Hb,RBC count and",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Complete Haemogram/CBC, Hb,RBC count and indices,TLC, DLC, Platelet, ESR, Peripheral smear examination",
+    "nonNabh": 135,
+    "nabh": 155
   },
   {
     "id": "1395",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Platelet count",
     "nonNabh": 48,
     "nabh": 55
   },
   {
     "id": "1396",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Reticulocyte count",
     "nonNabh": 48,
     "nabh": 55
   },
   {
     "id": "1397",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Absolute Eosinophil count (AEC)",
     "nonNabh": 48,
     "nabh": 55
   },
   {
     "id": "1398",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Packed Cell Volume (PCV)",
     "nonNabh": 13,
     "nabh": 15
   },
   {
     "id": "1399",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Peripheral Smear Examination",
     "nonNabh": 43,
     "nabh": 49
   },
   {
     "id": "1400",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Smear for Malaria parasite",
     "nonNabh": 41,
     "nabh": 47
   },
   {
     "id": "1401",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Bleeding Time",
     "nonNabh": 35,
     "nabh": 40
   },
   {
     "id": "1402",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Osmotic fragility Test",
     "nonNabh": 50,
     "nabh": 58
   },
   {
     "id": "1403",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Bone Marrow Smear Examination",
     "nonNabh": 70,
     "nabh": 81
   },
   {
     "id": "1404",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Bone Marrow Smear Examination with iron stain",
     "nonNabh": 250,
     "nabh": 288
   },
   {
     "id": "1405",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Bone Marrow Smear Examination and cytochemistry",
     "nonNabh": 440,
     "nabh": 506
   },
   {
     "id": "1406",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Activated partial ThromboplastinTime (APTT)",
     "nonNabh": 102,
     "nabh": 117
   },
   {
     "id": "1407",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Rapid test for malaria(card test)",
     "nonNabh": 44,
     "nabh": 51
   },
   {
     "id": "1408",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "WBC cytochemistry for leukemia -Complete panel",
     "nonNabh": 110,
     "nabh": 127
   },
   {
     "id": "1409",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Bleeding Disorder panel- PT, APTT, Thrombin Time Fibrinogen, D-Dimer/ Fibrinogen Degradation Products (FDP)",
     "nonNabh": 400,
     "nabh": 460
   },
   {
     "id": "1410",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Factor Assays-Factor VIII",
     "nonNabh": 720,
     "nabh": 828
   },
   {
     "id": "1411",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Factor Assays-Factor IX",
     "nonNabh": 680,
     "nabh": 782
   },
   {
     "id": "1412",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Platelet Function test",
     "nonNabh": 50,
     "nabh": 58
   },
   {
     "id": "1413",
-    "category": "INDICES",
-    "name": "Tests for hypercoagulable states- Protein C, Protein S,",
-    "nonNabh": 0,
-    "nabh": 0
+    "category": "HEMATOLOGY",
+    "name": "Tests for hypercoagulable states- Protein C, Protein S, Antithrombin",
+    "nonNabh": 400,
+    "nabh": 460
   },
   {
     "id": "1414",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Tests for lupus anticoagulant",
     "nonNabh": 150,
     "nabh": 173
   },
   {
     "id": "1415",
-    "category": "INDICES",
-    "name": "Tests for Antiphospholipid antibody IgG, IgM",
-    "nonNabh": 0,
-    "nabh": 0
+    "category": "HEMATOLOGY",
+    "name": "Tests for Antiphospholipid antibody IgG, IgM (for cardiolipin and B2 Glycoprotein 1)",
+    "nonNabh": 500,
+    "nabh": 575
   },
   {
     "id": "1416",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Thalassemia studies (Red Cell indices and Hb HPLC)",
     "nonNabh": 560,
     "nabh": 644
   },
   {
     "id": "1417",
-    "category": "INDICES",
+    "category": "HEMATOLOGY",
     "name": "Tests for Sickling / Hb HPLC)",
     "nonNabh": 77,
     "nabh": 89
@@ -9994,9 +8888,9 @@ const INITIAL_RATES = [
   {
     "id": "1431",
     "category": "BLOOD BANK",
-    "name": "Single Donor Platelet (SDP- Apheresis)- (Select CGHS rate",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Single Donor Platelet (SDP- Apheresis)- (Select CGHS rate Code 1830 for approved rate)",
+    "nonNabh": 1830,
+    "nabh": 1830
   },
   {
     "id": "1432",
@@ -10034,27 +8928,6 @@ const INITIAL_RATES = [
     "nabh": 394
   },
   {
-    "id": "1437",
-    "category": "CYTOLOGY",
-    "name": "Pap Smear",
-    "nonNabh": 150,
-    "nabh": 173
-  },
-  {
-    "id": "1438",
-    "category": "CYTOLOGY",
-    "name": "Body fluid for Malignant cells",
-    "nonNabh": 150,
-    "nabh": 173
-  },
-  {
-    "id": "1439",
-    "category": "CYTOLOGY",
-    "name": "Fine Needle Aspiration Cytology (FNAC)",
-    "nonNabh": 200,
-    "nabh": 230
-  },
-  {
     "id": "1440",
     "category": "FLOW CYTOMETRY",
     "name": "Leukemia panel /Lymphoma panel",
@@ -10064,20 +8937,20 @@ const INITIAL_RATES = [
   {
     "id": "1441",
     "category": "FLOW CYTOMETRY",
-    "name": "Paroxysmal Nocturnal Hemoglobinuria (PNH) Panel-",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Paroxysmal Nocturnal Hemoglobinuria (PNH) Panel- CD55,CD59",
+    "nonNabh": 1000,
+    "nabh": 1150
   },
   {
     "id": "1442",
-    "category": "CD55",
+    "category": "FLOW CYTOMETRY",
     "name": "Karyotyping (Select CGHS rate code 677 for approved rate)",
     "nonNabh": 677,
     "nabh": 677
   },
   {
     "id": "1443",
-    "category": "CD55",
+    "category": "FLOW CYTOMETRY",
     "name": "Fluorescent in situ hybridization (FISH)",
     "nonNabh": 500,
     "nabh": 575
@@ -10085,9 +8958,9 @@ const INITIAL_RATES = [
   {
     "id": "1444",
     "category": "BIOCHEMISTRY",
-    "name": "Blood Glucose Random / Blood Glucose Fasting /",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Blood Glucose Random / Blood Glucose Fasting / Blood Glucose PP",
+    "nonNabh": 24,
+    "nabh": 28
   },
   {
     "id": "1445",
@@ -10302,16 +9175,16 @@ const INITIAL_RATES = [
   {
     "id": "1475",
     "category": "BIOCHEMISTRY",
-    "name": "Serum glutamic pyruvic transaminase (SGPT) /",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Serum glutamic pyruvic transaminase (SGPT) / Alanine Aminotransferase (ALT)",
+    "nonNabh": 55,
+    "nabh": 63
   },
   {
     "id": "1476",
     "category": "BIOCHEMISTRY",
-    "name": "Serum Glutamic oxaloacetic transaminase (SGOT) /",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Serum Glutamic oxaloacetic transaminase (SGOT) / Aspartate Aminotransferase (AST)",
+    "nonNabh": 55,
+    "nabh": 63
   },
   {
     "id": "1477",
@@ -10421,9 +9294,9 @@ const INITIAL_RATES = [
   {
     "id": "1492",
     "category": "BIOCHEMISTRY",
-    "name": "Prothrombin Time (PT)/ International normalized",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Prothrombin Time (PT)/ International normalized ratio (INR)",
+    "nonNabh": 110,
+    "nabh": 127
   },
   {
     "id": "1493",
@@ -10526,9 +9399,9 @@ const INITIAL_RATES = [
   {
     "id": "1507",
     "category": "BIOCHEMISTRY",
-    "name": "Blood gas analysis / Arterial Blood Gas (ABG) with",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Blood gas analysis / Arterial Blood Gas (ABG) with electrolytes",
+    "nonNabh": 460,
+    "nabh": 529
   },
   {
     "id": "1508",
@@ -10575,9 +9448,9 @@ const INITIAL_RATES = [
   {
     "id": "1514",
     "category": "BIOCHEMISTRY",
-    "name": "Lipid Profile. (Total cholesterol, LDL, HDL,",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Lipid Profile. (Total cholesterol, LDL, HDL, Triglycerides)",
+    "nonNabh": 200,
+    "nabh": 230
   },
   {
     "id": "1515",
@@ -10617,9 +9490,9 @@ const INITIAL_RATES = [
   {
     "id": "1520",
     "category": "NUTRITIONAL MARKERS",
-    "name": "Extended Lipid Profile. (Total cholesterol, LDL,",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Extended Lipid Profile. (Total cholesterol, LDL, HDL, Triglycerides Apo A1,Apo B,Lp (a) )",
+    "nonNabh": 595,
+    "nabh": 684
   },
   {
     "id": "1521",
@@ -10841,9 +9714,9 @@ const INITIAL_RATES = [
   {
     "id": "1552",
     "category": "LABORATORY S OTHERS",
-    "name": "Calcidiol / 25-hydroxycholecalciferol / Vitamin D3",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Calcidiol / 25-hydroxycholecalciferol / Vitamin D3 assay (Vit D3)",
+    "nonNabh": 550,
+    "nabh": 633
   },
   {
     "id": "1553",
@@ -10869,9 +9742,9 @@ const INITIAL_RATES = [
   {
     "id": "1556",
     "category": "LABORATORY S OTHERS",
-    "name": "Anti-tissue Transglutaminase antibody (Anti TTG",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Anti-tissue Transglutaminase antibody (Anti TTG Antibody)",
+    "nonNabh": 425,
+    "nabh": 500
   },
   {
     "id": "1557",
@@ -11114,16 +9987,16 @@ const INITIAL_RATES = [
   {
     "id": "1591",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "USG Whole Abdomen / KUB including post-void",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "USG Whole Abdomen / KUB including post-void residual (PVR)",
+    "nonNabh": 323,
+    "nabh": 380
   },
   {
     "id": "1592",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Pelvic USG (gynae, infertility, prostate with post-",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Pelvic USG (gynae, infertility, prostate with post- void residual (PVR) etc.",
+    "nonNabh": 255,
+    "nabh": 300
   },
   {
     "id": "1593",
@@ -11301,125 +10174,6 @@ const INITIAL_RATES = [
     "nabh": 127
   },
   {
-    "id": "1618",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Barium Swallow",
-    "nonNabh": 510,
-    "nabh": 600
-  },
-  {
-    "id": "1619",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Barium Upper GI study",
-    "nonNabh": 800,
-    "nabh": 920
-  },
-  {
-    "id": "1620",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Barium Upper GI study (Double contrast)",
-    "nonNabh": 935,
-    "nabh": 1100
-  },
-  {
-    "id": "1621",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Barium Meal follow through",
-    "nonNabh": 935,
-    "nabh": 1100
-  },
-  {
-    "id": "1622",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Barium Enema (Single contrast/double contrast)",
-    "nonNabh": 850,
-    "nabh": 1000
-  },
-  {
-    "id": "1623",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Small bowel enteroclysis",
-    "nonNabh": 1020,
-    "nabh": 1200
-  },
-  {
-    "id": "1624",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "ERCP (Endoscopic Retrograde Cholangio –",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1625",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "General:Fistulography / Sinography/Sialography",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1626",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Percutaneous transhepatic cholangiography (PTC)",
-    "nonNabh": 1440,
-    "nabh": 1656
-  },
-  {
-    "id": "1627",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Intravenous Pyelography (IVP)",
-    "nonNabh": 1190,
-    "nabh": 1400
-  },
-  {
-    "id": "1628",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Micturating Cystourethrography (MCU)",
-    "nonNabh": 680,
-    "nabh": 800
-  },
-  {
-    "id": "1629",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Retrograde Urethrography (RGU)",
-    "nonNabh": 680,
-    "nabh": 800
-  },
-  {
-    "id": "1630",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Contrast Hystero-Salpingography (HSG)",
-    "nonNabh": 1020,
-    "nabh": 1200
-  },
-  {
-    "id": "1631",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "X ray Arthrography",
-    "nonNabh": 700,
-    "nabh": 805
-  },
-  {
-    "id": "1632",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Cephalography",
-    "nonNabh": 150,
-    "nabh": 173
-  },
-  {
-    "id": "1633",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Myelography",
-    "nonNabh": 2750,
-    "nabh": 3163
-  },
-  {
-    "id": "1634",
-    "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Diagnostic Digital Subtraction Angiography (DSA)",
-    "nonNabh": 1749,
-    "nabh": 2011
-  },
-  {
     "id": "1635",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
     "name": "X ray Mammography",
@@ -11443,9 +10197,9 @@ const INITIAL_RATES = [
   {
     "id": "1638",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "CT Scan Head- with Contrast -including CT",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "CT Scan Head- with Contrast -including CT angiography",
+    "nonNabh": 1350,
+    "nabh": 1553
   },
   {
     "id": "1639",
@@ -11457,16 +10211,16 @@ const INITIAL_RATES = [
   {
     "id": "1640",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "CT Scan Lower Abdomen (incl. Pelvis) With",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "CT Scan Lower Abdomen (incl. Pelvis) With Contrast",
+    "nonNabh": 1700,
+    "nabh": 1955
   },
   {
     "id": "1641",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "CT Scan Lower Abdomen (Incl. Pelvis) Without",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "CT Scan Lower Abdomen (Incl. Pelvis) Without Contrast",
+    "nonNabh": 1500,
+    "nabh": 1725
   },
   {
     "id": "1642",
@@ -11534,23 +10288,23 @@ const INITIAL_RATES = [
   {
     "id": "1651",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "CT Scan of Para Nasal Sinuses (CT PNS)- Without",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "CT Scan of Para Nasal Sinuses (CT PNS)- Without Contrast",
+    "nonNabh": 900,
+    "nabh": 1035
   },
   {
     "id": "1652",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "CT Scan of Para Nasal Sinuses (CT PNS)- With",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "CT Scan of Para Nasal Sinuses (CT PNS)- With Contrast",
+    "nonNabh": 1600,
+    "nabh": 1840
   },
   {
     "id": "1653",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "CT Scan Spine (Cervical, Dorsal, Lumbar,",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "CT Scan Spine (Cervical, Dorsal, Lumbar, Sacral)–without Contrast",
+    "nonNabh": 1500,
+    "nabh": 1725
   },
   {
     "id": "1654",
@@ -11576,9 +10330,9 @@ const INITIAL_RATES = [
   {
     "id": "1657",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "CT Scan Limbs -With Contrast including CT",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "CT Scan Limbs -With Contrast including CT angiography",
+    "nonNabh": 2253,
+    "nabh": 2650
   },
   {
     "id": "1658",
@@ -11597,9 +10351,9 @@ const INITIAL_RATES = [
   {
     "id": "1660",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "CT Guided intervention -percutaneous catheter",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "CT Guided intervention -percutaneous catheter drainage/tube placement",
+    "nonNabh": 1305,
+    "nabh": 1535
   },
   {
     "id": "1661",
@@ -11898,9 +10652,9 @@ const INITIAL_RATES = [
   {
     "id": "1703",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "MRI Cervical/Cervico Dorsal Spine – Without",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "MRI Cervical/Cervico Dorsal Spine – Without Contrast",
+    "nonNabh": 2125,
+    "nabh": 2500
   },
   {
     "id": "1704",
@@ -11926,9 +10680,9 @@ const INITIAL_RATES = [
   {
     "id": "1707",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "MRI Lumbar/ Lumbo-Sacral Spine – Without",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "MRI Lumbar/ Lumbo-Sacral Spine – Without Contrast",
+    "nonNabh": 2125,
+    "nabh": 2500
   },
   {
     "id": "1708",
@@ -11975,9 +10729,9 @@ const INITIAL_RATES = [
   {
     "id": "1714",
     "category": "IMAGING (USG/X-RAY/CT/MRI)",
-    "name": "Dexa Scan Bone Densitometry - Three sites (Spine,",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Dexa Scan Bone Densitometry - Three sites (Spine, Hip &extremity)",
+    "nonNabh": 2000,
+    "nabh": 2300
   },
   {
     "id": "1715",
@@ -12003,23 +10757,23 @@ const INITIAL_RATES = [
   {
     "id": "1718",
     "category": "S NEUROLOGICAL  AND PROCEDURES",
-    "name": "Nerve conduction velocity (NCV), -two or more",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Nerve conduction velocity (NCV), -two or more limbs",
+    "nonNabh": 638,
+    "nabh": 750
   },
   {
     "id": "1719",
     "category": "S NEUROLOGICAL  AND PROCEDURES",
-    "name": "Repititive nerve stimulation (RNS)-Decremental",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Repititive nerve stimulation (RNS)-Decremental response (before and after neostigmine)",
+    "nonNabh": 595,
+    "nabh": 700
   },
   {
     "id": "1720",
     "category": "S NEUROLOGICAL  AND PROCEDURES",
-    "name": "Repetitive nerve stimulation (RNS)-Incremental",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Repetitive nerve stimulation (RNS)-Incremental response",
+    "nonNabh": 595,
+    "nabh": 700
   },
   {
     "id": "1721",
@@ -12058,98 +10812,98 @@ const INITIAL_RATES = [
   },
   {
     "id": "1736",
-    "category": "/SPUTUM",
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
     "name": "Basic studies including cell count, protein, sugar, gram stain,India Ink preparation and smear for AFB",
     "nonNabh": 240,
     "nabh": 276
   },
   {
     "id": "1737",
-    "category": "/SPUTUM",
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
     "name": "Special studies",
     "nonNabh": 1000,
     "nabh": 1150
   },
   {
     "id": "1738",
-    "category": "/SPUTUM",
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
     "name": "PCR for tuberculosis/ Herpes simplex",
     "nonNabh": 1200,
     "nabh": 1380
   },
   {
     "id": "1739",
-    "category": "/SPUTUM",
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
     "name": "Bacterial culture and sensitivity",
     "nonNabh": 200,
     "nabh": 230
   },
   {
     "id": "1740",
-    "category": "/SPUTUM",
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
     "name": "Mycobacterial culture and sensitivity",
     "nonNabh": 200,
     "nabh": 230
   },
   {
     "id": "1741",
-    "category": "/SPUTUM",
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
     "name": "Fungal culture",
     "nonNabh": 128,
     "nabh": 150
   },
   {
     "id": "1742",
-    "category": "/SPUTUM",
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
     "name": "Malignant cells (Cytology)",
     "nonNabh": 64,
     "nabh": 75
   },
   {
     "id": "1743",
-    "category": "/SPUTUM",
-    "name": "Anti measles antibody titre (with serum antibody",
-    "nonNabh": 0,
-    "nabh": 0
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
+    "name": "Anti measles antibody titre (with serum antibody titre)",
+    "nonNabh": 890,
+    "nabh": 1024
   },
   {
     "id": "1744",
-    "category": "/SPUTUM",
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
     "name": "Viral culture",
     "nonNabh": 255,
     "nabh": 300
   },
   {
     "id": "1745",
-    "category": "/SPUTUM",
-    "name": "Antibody titre (Herpes simplex, cytomegalo virus,",
-    "nonNabh": 0,
-    "nabh": 0
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
+    "name": "Antibody titre (Herpes simplex, cytomegalo virus, flavivirus, zoster varicella virus)",
+    "nonNabh": 760,
+    "nabh": 874
   },
   {
     "id": "1746",
-    "category": "FLAVIVIRUS",
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
     "name": "Oligoclonal bands (OCBs)",
     "nonNabh": 1200,
     "nabh": 1380
   },
   {
     "id": "1747",
-    "category": "FLAVIVIRUS",
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
     "name": "Myelin basic protein (MBP)",
     "nonNabh": 1871,
     "nabh": 2125
   },
   {
     "id": "1748",
-    "category": "FLAVIVIRUS",
-    "name": "Lactate (Select CGHS rate code 1479 for approved",
-    "nonNabh": 0,
-    "nabh": 0
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
+    "name": "Lactate (Select CGHS rate code 1479 for approved rate)",
+    "nonNabh": 1479,
+    "nabh": 1479
   },
   {
     "id": "1749",
-    "category": "FLAVIVIRUS",
+    "category": "LABORATORY INVESTIGATINS PROCEDURE CEREBROSPINAL FLUID (CSF) / ALL BODY FLUIDS (BLOOD/URINE/ASCITES/",
     "name": "Cryptococcal antigen",
     "nonNabh": 850,
     "nabh": 1000
@@ -12318,9 +11072,9 @@ const INITIAL_RATES = [
   {
     "id": "1773",
     "category": "ENDOCRINOLOGY",
-    "name": "Glutamic Acid Decarboxylase Autoantibodies test",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Glutamic Acid Decarboxylase Autoantibodies test (GAD antibodies)",
+    "nonNabh": 1330,
+    "nabh": 1530
   },
   {
     "id": "1774",
@@ -12339,9 +11093,9 @@ const INITIAL_RATES = [
   {
     "id": "1776",
     "category": "ENDOCRINOLOGY",
-    "name": "Insulin-like growth factor binding protein 3 (IGF-",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Insulin-like growth factor binding protein 3 (IGF- BP3)",
+    "nonNabh": 1650,
+    "nabh": 1898
   },
   {
     "id": "1777",
@@ -12370,111 +11124,6 @@ const INITIAL_RATES = [
     "name": "Thyroglobulin antibody",
     "nonNabh": 587,
     "nabh": 675
-  },
-  {
-    "id": "1781",
-    "category": "CGHS D/ S LIST",
-    "name": "Kappa Lambda Light Chains, Free, Serum/ Serum free light chains (SFLC)",
-    "nonNabh": 3500,
-    "nabh": 4025
-  },
-  {
-    "id": "1782",
-    "category": "CGHS D/ S LIST",
-    "name": "Serum IGE Level",
-    "nonNabh": 300,
-    "nabh": 345
-  },
-  {
-    "id": "1783",
-    "category": "CGHS D/ S LIST",
-    "name": "NT-Pro BNP",
-    "nonNabh": 1800,
-    "nabh": 2070
-  },
-  {
-    "id": "1784",
-    "category": "CGHS D/ S LIST",
-    "name": "CECT Chest (Including CD)",
-    "nonNabh": 2500,
-    "nabh": 2875
-  },
-  {
-    "id": "1785",
-    "category": "CGHS D/ S LIST",
-    "name": "MRI-Prostate (Multi-parametric) (Including CD)",
-    "nonNabh": 6000,
-    "nabh": 6900
-  },
-  {
-    "id": "1786",
-    "category": "CGHS D/ S LIST",
-    "name": "HCV RNA Quantitative",
-    "nonNabh": 1500,
-    "nabh": 1725
-  },
-  {
-    "id": "1787",
-    "category": "CGHS D/ S LIST",
-    "name": "Tacrolimus",
-    "nonNabh": 2300,
-    "nabh": 2645
-  },
-  {
-    "id": "1788",
-    "category": "CGHS D/ S LIST",
-    "name": "Protein Creatinine Ratio (PCR), Urine / Albumin",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1789",
-    "category": "CREATININE RATIO (ACR)",
-    "name": "Fibroscan Liver",
-    "nonNabh": 1000,
-    "nabh": 1150
-  },
-  {
-    "id": "1790",
-    "category": "CREATININE RATIO (ACR)",
-    "name": "HLA B27 (PCR)",
-    "nonNabh": 500,
-    "nabh": 575
-  },
-  {
-    "id": "1791",
-    "category": "CREATININE RATIO (ACR)",
-    "name": "Mantoux Test",
-    "nonNabh": 175,
-    "nabh": 200
-  },
-  {
-    "id": "1792",
-    "category": "CREATININE RATIO (ACR)",
-    "name": "Procalcitonin",
-    "nonNabh": 1800,
-    "nabh": 2070
-  },
-  {
-    "id": "1793",
-    "category": "CREATININE RATIO (ACR)",
-    "name": "TORCH Test",
-    "nonNabh": 1120,
-    "nabh": 1288
-  },
-  {
-    "id": "1794",
-    "category": "CREATININE RATIO (ACR)",
-    "name": "Intracoronary optical coherence tomography (OCT) / Intravascular optical coherence tomography (IVOCT) (AIIMS Rates) Intravascular Ventricular Assist",
-    "nonNabh": 0,
-    "nabh": 0
-  },
-  {
-    "id": "1795",
-    "category": "CREATININE RATIO (ACR)",
-    "name": "Fractional Flow Reserve (FFR) Wire cost (AIIMS Rates",
-    "nonNabh": 23500,
-    "nabh": 0
   },
   {
     "id": "1796",
@@ -12717,14 +11366,14 @@ const INITIAL_RATES = [
   {
     "id": "1830",
     "category": "CGHS _ INVE1",
-    "name": "Platelet Concentrate – Single Donor Platelet (SDP)-",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Platelet Concentrate – Single Donor Platelet (SDP)- Apheresis per unit",
+    "nonNabh": 11000,
+    "nabh": 11000
   },
   {
     "id": "1831",
     "category": "CGHS _ INVE1",
-    "name": "Annual Health Check-up,  of  CCS Group A Officer of above 40 years of age / Pensioner primary card holder 75 years of age and above–Male,",
+    "name": "Annual Health Check-up, of CCS Group A Officer of above 40 years of age / Pensioner primary card holder 75 years of age and above–Male,",
     "nonNabh": 2000,
     "nabh": 2000
   },
@@ -12745,9 +11394,9 @@ const INITIAL_RATES = [
   {
     "id": "1834",
     "category": "CGHS _ INVE2",
-    "name": "High resolution computed Tomography (HRCT",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "High resolution computed Tomography (HRCT Chest)",
+    "nonNabh": 1700,
+    "nabh": 2000
   },
   {
     "id": "1835",
@@ -12878,9 +11527,9 @@ const INITIAL_RATES = [
   {
     "id": "1853",
     "category": "CGHS _ INVE2",
-    "name": "Sleep deprived EEG (Rate shall be the same CGHS rate",
-    "nonNabh": 0,
-    "nabh": 0
+    "name": "Sleep deprived EEG (Rate shall be the same CGHS rate of EEG/Video EEG) (Select CGHS rate Code 1716 for approved rate)",
+    "nonNabh": 1716,
+    "nabh": 1716
   }
 ];
 
@@ -13050,27 +11699,45 @@ async function manualSync() {
 // CSV Parser implementation exactly as requested
 function parseCSV(csvText) {
   const parsedRates = [];
-  const lines = csvText.split(/\r?\n/);
   let currentCategory = 'GENERAL';
-
-  // Helper to split CSV row handling quotes properly
-  function splitCSVRow(line) {
-    const result = [];
-    let curVal = '';
-    let inQuotes = false;
-    for (let i = 0; i < line.length; i++) {
-      const char = line[i];
-      if (char === '"') {
-        inQuotes = !inQuotes;
-      } else if (char === ',' && !inQuotes) {
-        result.push(curVal.trim());
-        curVal = '';
+  
+  const rows = [];
+  let currentRow = [];
+  let currentVal = '';
+  let inQuotes = false;
+  
+  for (let i = 0; i < csvText.length; i++) {
+    const char = csvText[i];
+    const nextChar = csvText[i + 1];
+    
+    if (char === '"') {
+      if (inQuotes && nextChar === '"') {
+        currentVal += '"';
+        i++;
       } else {
-        curVal += char;
+        inQuotes = !inQuotes;
       }
+    } else if (char === ',' && !inQuotes) {
+      currentRow.push(currentVal.trim());
+      currentVal = '';
+    } else if ((char === '\\r' || char === '\\n') && !inQuotes) {
+      if (char === '\\r' && nextChar === '\\n') {
+        i++;
+      }
+      currentRow.push(currentVal.trim());
+      if (currentRow.length > 0 && currentRow.some(cell => cell !== '')) {
+        rows.push(currentRow);
+      }
+      currentRow = [];
+      currentVal = '';
+    } else {
+      currentVal += char;
     }
-    result.push(curVal.trim());
-    return result;
+  }
+  
+  if (currentVal || currentRow.length > 0) {
+    currentRow.push(currentVal.trim());
+    rows.push(currentRow);
   }
 
   // Clean category names
@@ -13131,9 +11798,7 @@ function parseCSV(csvText) {
     return cat || "GENERAL";
   }
 
-  for (const line of lines) {
-    if (!line.trim()) continue;
-    const columns = splitCSVRow(line);
+  for (const columns of rows) {
     if (columns.length < 2) continue;
 
     const firstCol = columns[0];
@@ -13150,7 +11815,7 @@ function parseCSV(csvText) {
       continue;
     }
 
-    const startsWithNum = /^\d+$/.test(firstCol);
+    const startsWithNum = /^\\d+$/.test(firstCol);
 
     if (!startsWithNum) {
       if (firstCol && firstCol.length > 3 && !firstCol.toLowerCase().includes("added") && !firstCol.toLowerCase().includes("rates")) {
@@ -13159,11 +11824,12 @@ function parseCSV(csvText) {
     } else {
       const nonNabh = parseFloat(nonNabhStr.replace(/[^0-9.]/g, '')) || 0;
       const nabh = parseFloat(nabhStr.replace(/[^0-9.]/g, '')) || 0;
+      const cleanName = name.replace(/\\r?\\n/g, ' ').replace(/\\s+/g, ' ').trim();
 
       parsedRates.push({
         id: firstCol,
         category: currentCategory,
-        name: name.replace(/^"(.*)"$/, '$1'),
+        name: cleanName,
         nonNabh: nonNabh || 0,
         nabh: nabh || 0
       });
